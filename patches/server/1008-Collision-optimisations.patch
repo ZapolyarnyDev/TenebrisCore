@@ -2214,7 +2214,7 @@ index 60ba289e724463129dfb27aa5e3b6daf3dd7386e..68446b7532dfbda303293aa9e756644c
              entityplayer1.setPos(entityplayer1.getX(), entityplayer1.getY() + 1.0D, entityplayer1.getZ());
          }
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index 8485d30feb6844d9659d6364c576c0b3da5dea8f..533808bb5652d70230062893b80c20b2010370c4 100644
+index 644cbdc15cdedb18f5b0eb9d4a2249ba131f89e5..9153c15cd2b8a3811d5f1c16ac2221aea7c3aacd 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -1260,9 +1260,44 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess

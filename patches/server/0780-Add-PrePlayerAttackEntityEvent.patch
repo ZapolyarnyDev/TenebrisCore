@@ -5,7 +5,7 @@ Subject: [PATCH] Add PrePlayerAttackEntityEvent
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/player/Player.java b/src/main/java/net/minecraft/world/entity/player/Player.java
-index 461129261d93ca9831f347c9612c6f38cbbd8ac9..1ef5f8e0592e528b46af2a94b0650e9d15c58186 100644
+index 9f3d1a5407635d740adb6722930c94781a021015..61553ebc54b5666c2f53d2aa2bbb2a74f0a266dd 100644
 --- a/src/main/java/net/minecraft/world/entity/player/Player.java
 +++ b/src/main/java/net/minecraft/world/entity/player/Player.java
 @@ -1246,8 +1246,17 @@ public abstract class Player extends LivingEntity {

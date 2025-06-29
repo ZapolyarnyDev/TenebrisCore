@@ -37,7 +37,7 @@ index 56f855ed9dbbb9a7025bef6f9e98a8cdcf2ad4fc..4621c33ed73b0db64e78e7b9be7013a2
      // Paper end - Optional per player mob spawns
  
 diff --git a/src/main/java/net/minecraft/server/level/ServerChunkCache.java b/src/main/java/net/minecraft/server/level/ServerChunkCache.java
-index 002aad174fb1781ee963414037f84e5120488592..c7b7f153895a4b95b2071a31db00c9c4b69fa094 100644
+index 41be61c8d239515975b5a73ecf448734710abd23..6b258a2bd85bb71b030d42b488e1a4742d1e147d 100644
 --- a/src/main/java/net/minecraft/server/level/ServerChunkCache.java
 +++ b/src/main/java/net/minecraft/server/level/ServerChunkCache.java
 @@ -522,7 +522,17 @@ public class ServerChunkCache extends ChunkSource {
@@ -60,7 +60,7 @@ index 002aad174fb1781ee963414037f84e5120488592..c7b7f153895a4b95b2071a31db00c9c4
                      spawnercreature_d = NaturalSpawner.createState(naturalSpawnChunkCount, this.level.getAllEntities(), this::getFullChunk, null, true);
                  } else {
 diff --git a/src/main/java/net/minecraft/server/level/ServerPlayer.java b/src/main/java/net/minecraft/server/level/ServerPlayer.java
-index 7626872528cddd3e3b9a895a77a2ceca50bdb452..95f5fda22759b8fe5ce7e01635fe908cf3d92337 100644
+index 2a7d050c785e6cba36ec3df3127c2fc3b7932db6..54023123e8f46671968f23f05590dd18ed5c2024 100644
 --- a/src/main/java/net/minecraft/server/level/ServerPlayer.java
 +++ b/src/main/java/net/minecraft/server/level/ServerPlayer.java
 @@ -276,6 +276,7 @@ public class ServerPlayer extends Player {

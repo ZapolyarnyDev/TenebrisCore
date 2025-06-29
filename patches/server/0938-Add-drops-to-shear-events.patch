@@ -275,7 +275,7 @@ index 9c0bfddd479eef688d2509ad700371c3c860ff1a..e9f9b041ae7195e9d23bd446454b1d8c
      public boolean readyForShearing() {
          return !this.isSheared() && this.isAlive();
 diff --git a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
-index d94f59e6de51da2c4b261957e8bb21ba90ef9f91..df82d811e94ee466f2336b8e04bc3441474cc3d2 100644
+index 8b322ade83e8e571af7c2e91a3c0d0784a7b9fad..e20feab675d05ae5b5b19870546585936c757970 100644
 --- a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 +++ b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 @@ -1666,20 +1666,20 @@ public class CraftEventFactory {
@@ -306,7 +306,7 @@ index d94f59e6de51da2c4b261957e8bb21ba90ef9f91..df82d811e94ee466f2336b8e04bc3441
  
      public static Cancellable handleStatisticsIncrease(net.minecraft.world.entity.player.Player entityHuman, net.minecraft.stats.Stat<?> statistic, int current, int newValue) {
 diff --git a/src/main/java/org/bukkit/craftbukkit/inventory/CraftItemStack.java b/src/main/java/org/bukkit/craftbukkit/inventory/CraftItemStack.java
-index 819e237a8797ab51b7f888b42a013c5198d8fcf6..f53d6587b2bab3ed8428338950795a62b356c694 100644
+index 776437ae42865baccab4fb5d3f2715c8f0519b8a..520b637e0f281d3d3018681ec7b48b06c47f621e 100644
 --- a/src/main/java/org/bukkit/craftbukkit/inventory/CraftItemStack.java
 +++ b/src/main/java/org/bukkit/craftbukkit/inventory/CraftItemStack.java
 @@ -65,6 +65,16 @@ public final class CraftItemStack extends ItemStack {

@@ -6,7 +6,7 @@ Subject: [PATCH] Ensure Entity position and AABB are never invalid
 Co-authored-by: Spottedleaf <Spottedleaf@users.noreply.github.com>
 
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index 996ca6762fe45ee1c2fa2392ed6a050be9df5ac6..184d8bdca8aa06b6a1f00bab03e8c2688a391663 100644
+index fcdfe37d2135190e44527190976a718b2f9359c5..084824335dc4c83d331cac2da8fdd5604d650b5d 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -664,8 +664,8 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess

@@ -5,7 +5,7 @@ Subject: [PATCH] Entity#isTicking
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index 240f322b1ae99a73f6b4720d2a03d1a1440cf930..0a51ea55a6b768d71161c4492664a61ec1e5df15 100644
+index 90a4eaeccedc588ac7131757421e5230e1c43e4a..4187fc3722b7e27ccf4fcb2617c00c3af8241f9f 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -4449,5 +4449,9 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess

@@ -84,7 +84,7 @@ index a4db0bcefc92091ff26b146a2ce914c1d36a3c23..935061ed5c22b48e43d27fe0840cc69f
          }
          // Paper end - Entity#getEntitySpawnReason
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index 70fdacb0aab225b89126d9c21e14cf42d69f00fa..06b52eefb16f7605021c2e2a5e3a300151fc5424 100644
+index 102f32c0724b6042412c010cffa02e5b454ab757..33329cb73324ea3e005d59ee3f9ea1225ada7055 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -2316,27 +2316,8 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess

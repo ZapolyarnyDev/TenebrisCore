@@ -21,7 +21,7 @@ index b6c5656665e492a7fdec0ae15545ecbabf585336..a8a53b0aad6cda7fa1cd0565b5a4249a
              // Paper start - further improve server tick loop
              long tickSection = Util.getNanos();
 diff --git a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
-index 0ffa25a6e41cc56e78c79e0cee45e3b811794129..1b47e228ad7365b31d6ddd8c572d3bc5de90a591 100644
+index 2d877bf61cf0a7829278e6af096f5401edfe1981..4b844838f62f74870fa6ba0ce8dac78647f9f9e1 100644
 --- a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 +++ b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 @@ -212,6 +212,7 @@ public class DedicatedServer extends MinecraftServer implements ServerInterface

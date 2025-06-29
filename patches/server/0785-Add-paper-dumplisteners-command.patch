@@ -6,7 +6,7 @@ Subject: [PATCH] Add /paper dumplisteners command
 Co-authored-by: TwoLeggedCat <80929284+TwoLeggedCat@users.noreply.github.com>
 
 diff --git a/src/main/java/io/papermc/paper/command/PaperCommand.java b/src/main/java/io/papermc/paper/command/PaperCommand.java
-index c9bb2df0d884227576ed8d2e72219bbbd7ba827e..534d9c380f26d6cce3c99fa88ad2e15410535094 100644
+index fd4f37711989431f997d77fb0917f8a9232ce53f..46bf42d5ea9e7b046f962531c5962d287cf44a41 100644
 --- a/src/main/java/io/papermc/paper/command/PaperCommand.java
 +++ b/src/main/java/io/papermc/paper/command/PaperCommand.java
 @@ -41,6 +41,7 @@ public final class PaperCommand extends Command {

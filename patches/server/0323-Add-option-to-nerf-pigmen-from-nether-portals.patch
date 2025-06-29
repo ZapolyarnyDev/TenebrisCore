@@ -5,7 +5,7 @@ Subject: [PATCH] Add option to nerf pigmen from nether portals
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index a80041ccb308fa393498e72c1060f89ade440cb8..70fdacb0aab225b89126d9c21e14cf42d69f00fa 100644
+index 7544a013111a830618371b9b929c950d8f791bd8..102f32c0724b6042412c010cffa02e5b454ab757 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -398,6 +398,7 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess

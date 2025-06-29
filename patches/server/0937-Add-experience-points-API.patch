@@ -5,7 +5,7 @@ Subject: [PATCH] Add experience points API
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/player/Player.java b/src/main/java/net/minecraft/world/entity/player/Player.java
-index 83a205387cb902121aabf0f5082c650debcb734c..dad2b84a2220368f2da005e217d73c63bb540a08 100644
+index 77624e34143dc37ca3b523a81b9a041ffb3199bd..32f6c029bf2f9a16d48ac73ff217c7462c64f175 100644
 --- a/src/main/java/net/minecraft/world/entity/player/Player.java
 +++ b/src/main/java/net/minecraft/world/entity/player/Player.java
 @@ -1855,7 +1855,7 @@ public abstract class Player extends LivingEntity {
@@ -18,7 +18,7 @@ index 83a205387cb902121aabf0f5082c650debcb734c..dad2b84a2220368f2da005e217d73c63
      // Paper start - send while respecting visibility
      private static void sendSoundEffect(Player fromEntity, double x, double y, double z, SoundEvent soundEffect, SoundSource soundCategory, float volume, float pitch) {
 diff --git a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
-index 7fca299a92d330a46336c9fc88156d2ff18f3903..8016976d226a421b3e16d281fa3c01be2f8d3eb0 100644
+index e9bd24861bca4554898306117bb533d19171cedf..68a0b6b8650e9e80e8e8c4037d92389cae899d72 100644
 --- a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 +++ b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 @@ -1902,6 +1902,49 @@ public class CraftPlayer extends CraftHumanEntity implements Player {

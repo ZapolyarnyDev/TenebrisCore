@@ -43,7 +43,7 @@ index 365281dfc0308c5db0c72b56208d9b87be0e955e..991b94ff1186b1071a94b2662873dc07
      @Override
      public boolean isInvisible() {  // Paper - moved up from LivingEntity
 diff --git a/src/main/java/org/bukkit/craftbukkit/entity/CraftLivingEntity.java b/src/main/java/org/bukkit/craftbukkit/entity/CraftLivingEntity.java
-index 8f987c87032fad49835d51cd747f40df2bb5aa32..a231543cf4fcc442e3675ece0d4c4950f4ed3126 100644
+index 112d54e1789d30ef89b34f53a60b0124538d3cda..37b62a45bbe2db725f24330f1f03e8cf09ab208c 100644
 --- a/src/main/java/org/bukkit/craftbukkit/entity/CraftLivingEntity.java
 +++ b/src/main/java/org/bukkit/craftbukkit/entity/CraftLivingEntity.java
 @@ -1161,4 +1161,16 @@ public class CraftLivingEntity extends CraftEntity implements LivingEntity {

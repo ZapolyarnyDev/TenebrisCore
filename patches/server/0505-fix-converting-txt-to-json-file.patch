@@ -21,7 +21,7 @@ index 929f59bce01c8e6ed4b0b551744d42e131b8fc80..22c4f8dea99f92a1eb3da2baf0a15bf9
          this.saveUserBanList();
          this.loadIpBanList();
 diff --git a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
-index 4d7c2832a9cd9a88b99c837a02df7fa91e572658..4b00c14332f3d514f402fc82345a02d51c3ac58a 100644
+index 1bc8217cf1df95edadd57e18a91885808d31cb93..a0d0e334dfe63e62c6c4a83099c9953205ada5cc 100644
 --- a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 +++ b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 @@ -212,6 +212,12 @@ public class DedicatedServer extends MinecraftServer implements ServerInterface

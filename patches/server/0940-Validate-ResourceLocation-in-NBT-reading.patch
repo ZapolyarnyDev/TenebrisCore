@@ -66,7 +66,7 @@ index 8c7cc9c5af0b8d8bef9b6e2d3d3e723cd76f3212..56b51096ca4147363a843accf6ef2510
  
      @Nullable
 diff --git a/src/main/java/net/minecraft/world/entity/LivingEntity.java b/src/main/java/net/minecraft/world/entity/LivingEntity.java
-index c256b4307e896b3e9f0a399a93db761a8c5c593f..5eda2e858b309d2be704db1015c9c114ed9e63a9 100644
+index b7af45eac986097ef53fa90bb4edd67f8829f13c..958b25e62b040943c346114ef19d56104ae0a844 100644
 --- a/src/main/java/net/minecraft/world/entity/LivingEntity.java
 +++ b/src/main/java/net/minecraft/world/entity/LivingEntity.java
 @@ -911,12 +911,13 @@ public abstract class LivingEntity extends Entity implements Attackable {
@@ -85,7 +85,7 @@ index c256b4307e896b3e9f0a399a93db761a8c5c593f..5eda2e858b309d2be704db1015c9c114
  
          if (nbt.contains("Brain", 10)) {
 diff --git a/src/main/java/net/minecraft/world/entity/Mob.java b/src/main/java/net/minecraft/world/entity/Mob.java
-index f9a8bcbd58ba450bf6f5f82ae9e08b8bec9a9c4d..d680ad6ce6cfc58753a3754a1bd5113fa9778cdc 100644
+index 5581fd6656fc13ea1d036d6caab2aba39c5320ac..748a6d81f409cf91a7aa2c88ded04f1d428cf0f6 100644
 --- a/src/main/java/net/minecraft/world/entity/Mob.java
 +++ b/src/main/java/net/minecraft/world/entity/Mob.java
 @@ -645,7 +645,7 @@ public abstract class Mob extends LivingEntity implements EquipmentUser, Targeti
@@ -98,7 +98,7 @@ index f9a8bcbd58ba450bf6f5f82ae9e08b8bec9a9c4d..d680ad6ce6cfc58753a3754a1bd5113f
          }
  
 diff --git a/src/main/java/net/minecraft/world/entity/projectile/AbstractArrow.java b/src/main/java/net/minecraft/world/entity/projectile/AbstractArrow.java
-index fc5913910f5614cd3e10cd9c1aa482a4b70ac260..31b8a8bf78d52b5f11b68e780ec09bf78e7bda84 100644
+index f1bf129aecb6840d79c537338e4057557f07790b..5bc4ba7c055992a32197db96d86a3906c11900d8 100644
 --- a/src/main/java/net/minecraft/world/entity/projectile/AbstractArrow.java
 +++ b/src/main/java/net/minecraft/world/entity/projectile/AbstractArrow.java
 @@ -561,7 +561,7 @@ public abstract class AbstractArrow extends Projectile {

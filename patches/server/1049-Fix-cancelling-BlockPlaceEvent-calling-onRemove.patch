@@ -5,7 +5,7 @@ Subject: [PATCH] Fix cancelling BlockPlaceEvent calling onRemove
 
 
 diff --git a/src/main/java/net/minecraft/world/item/ItemStack.java b/src/main/java/net/minecraft/world/item/ItemStack.java
-index 893efb2c4a07c33d41e934279dd914a9dbd4ef79..58c38bc4361ddf24716f326b0c6fc626d434756e 100644
+index 7c7b9b1e0b604b0164b431873e6753b60421f970..f8589837070039b4911a9532b92fa959c7af6352 100644
 --- a/src/main/java/net/minecraft/world/item/ItemStack.java
 +++ b/src/main/java/net/minecraft/world/item/ItemStack.java
 @@ -473,9 +473,11 @@ public final class ItemStack implements DataComponentHolder {

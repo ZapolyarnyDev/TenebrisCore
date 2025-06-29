@@ -45,7 +45,7 @@ Co-authored-by: maxcom1 <46265094+maxcom1@users.noreply.github.com>
 Co-authored-by: TotalledZebra <Holappa57@gmail.com>
 
 diff --git a/src/main/java/com/destroystokyo/paper/entity/ai/MobGoalHelper.java b/src/main/java/com/destroystokyo/paper/entity/ai/MobGoalHelper.java
-index 55e85267c7cbd8be5d2da212e33c43fb353f2e12..c72d6bccf7d72d08d388c65936a89c92261c7860 100644
+index 3f8cca8027051694cb0440373e75f418f73edf87..06455d65c4605ce092bf5300d432087f24186741 100644
 --- a/src/main/java/com/destroystokyo/paper/entity/ai/MobGoalHelper.java
 +++ b/src/main/java/com/destroystokyo/paper/entity/ai/MobGoalHelper.java
 @@ -165,7 +165,7 @@ public class MobGoalHelper {

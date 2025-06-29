@@ -30,7 +30,7 @@ will have plugins and worlds saving to the disk has a high potential to result
 in corruption/dataloss.
 
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index fb0904312cad3a8853f2f92888f9e21c3ab50f27..260e364c91d8c3d774681f9f0ecba63df5dd3f5c 100644
+index fca7340f5b0dbbf072a752e7e7b589dbaeb17d50..1fdd088f0bb6606f2a9a482d276aa3e9261be012 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -236,6 +236,7 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa

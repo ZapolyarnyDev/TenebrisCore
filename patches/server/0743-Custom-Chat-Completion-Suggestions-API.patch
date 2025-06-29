@@ -5,7 +5,7 @@ Subject: [PATCH] Custom Chat Completion Suggestions API
 
 
 diff --git a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
-index 37ca21194e90523c2461468f68509257d11234b1..9fd66c351dc74ed9a62db1efd58df2c5bfddfad8 100644
+index 898259c35c25ee034c859e210350efc19c559e3b..7e6ae084118e36eb1be9b5598eeb7e8885179eae 100644
 --- a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 +++ b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 @@ -689,6 +689,24 @@ public class CraftPlayer extends CraftHumanEntity implements Player {

@@ -11,7 +11,7 @@ the logic associated with damaging them
 public net.minecraft.world.entity.LivingEntity entityEventForEquipmentBreak(Lnet/minecraft/world/entity/EquipmentSlot;)B
 
 diff --git a/src/main/java/net/minecraft/world/item/ItemStack.java b/src/main/java/net/minecraft/world/item/ItemStack.java
-index acce1b72185d4687ef5a72dd4014d87149f4b092..dc473b46394b41d951b68ed0eb6993e6807a0d29 100644
+index 0ac1d8cf71dc685bcf2d1f9ab1440e933757359c..a158642471ab037ea3b99cac09ba5f3bf282e2a7 100644
 --- a/src/main/java/net/minecraft/world/item/ItemStack.java
 +++ b/src/main/java/net/minecraft/world/item/ItemStack.java
 @@ -713,7 +713,14 @@ public final class ItemStack implements DataComponentHolder {

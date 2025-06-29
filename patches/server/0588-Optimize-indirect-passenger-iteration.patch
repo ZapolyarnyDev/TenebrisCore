@@ -5,7 +5,7 @@ Subject: [PATCH] Optimize indirect passenger iteration
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index 318d0f557d50b74c44b2fd1ac84e12bf30e75c24..325d8551d4f6c1d24525fab607769a75320cf436 100644
+index b4670fc653721283f95bb61ac57c306b224b7fb7..56de24f923571aff124ae64b737cbdf482d4b847 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -3875,20 +3875,34 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess

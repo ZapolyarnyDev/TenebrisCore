@@ -14,7 +14,7 @@ public net.minecraft.world.entity.ExperienceOrb durabilityToXp(I)I
 public net.minecraft.world.entity.ExperienceOrb xpToDurability(I)I
 
 diff --git a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
-index 7635c501d71273ef85e6500ff15434c6b89c9e3c..2928c835d2f99ea82db2bb06761cd273e1427caf 100644
+index 01fd0d05eb2c71d12252eeeda87f88ee903dd167..8b3e3d85ec11406143e7a9f447007615afecae2a 100644
 --- a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 +++ b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 @@ -1624,7 +1624,37 @@ public class CraftPlayer extends CraftHumanEntity implements Player {

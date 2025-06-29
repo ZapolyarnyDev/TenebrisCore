@@ -13,7 +13,7 @@ A config is provided if you rather let players use these exploits, and let
 them destroy the worlds End Portals and get on top of the nether easy.
 
 diff --git a/src/main/java/net/minecraft/world/level/Explosion.java b/src/main/java/net/minecraft/world/level/Explosion.java
-index 7227345914c9e4288faa227be568d974b3cfcf45..09d2377db5f37b5dcd03aa3629d3c24fa7f75d20 100644
+index 4107756fb31e4ad99f643184118d877aef09e9f4..ef40b996864c81d7e8fbb0727ea0a96f866c725f 100644
 --- a/src/main/java/net/minecraft/world/level/Explosion.java
 +++ b/src/main/java/net/minecraft/world/level/Explosion.java
 @@ -192,6 +192,7 @@ public class Explosion {

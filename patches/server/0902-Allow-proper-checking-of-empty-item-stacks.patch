@@ -5,7 +5,7 @@ Subject: [PATCH] Allow proper checking of empty item stacks
 
 
 diff --git a/src/main/java/org/bukkit/craftbukkit/inventory/CraftItemStack.java b/src/main/java/org/bukkit/craftbukkit/inventory/CraftItemStack.java
-index 55ae50f99a891a26dcdc0ec6266e3c05b3d12a5e..819e237a8797ab51b7f888b42a013c5198d8fcf6 100644
+index 7c510d673253e53c1cebbe7af2aacbcaa59cb9de..776437ae42865baccab4fb5d3f2715c8f0519b8a 100644
 --- a/src/main/java/org/bukkit/craftbukkit/inventory/CraftItemStack.java
 +++ b/src/main/java/org/bukkit/craftbukkit/inventory/CraftItemStack.java
 @@ -36,12 +36,19 @@ public final class CraftItemStack extends ItemStack {

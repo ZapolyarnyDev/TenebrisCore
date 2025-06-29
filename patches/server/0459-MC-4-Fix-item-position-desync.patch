@@ -28,7 +28,7 @@ index ffec3deb9bcd31d51974c1deda2e76bc8374e5c5..a3d247c93ac1a2d872ff0e3841efc3d7
  
      public Vec3 decode(long x, long y, long z) {
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index 0328738d613358a9042b1d12de511f212db68244..da31287d60c60f01bf274f23c6bb23803f9658fb 100644
+index f7964a9ef04d35b5bf46ff18071ef22f53b9a3b5..cac4c1bd5d4ee89e4366b7e11fbf01903e953ed9 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -4217,6 +4217,16 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess

@@ -5,7 +5,7 @@ Subject: [PATCH] Friction API
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/LivingEntity.java b/src/main/java/net/minecraft/world/entity/LivingEntity.java
-index d736a53a6ea2a20a950096cd89df178864e644f4..fecbef1ffcc942c71e3a1daaad4c16e0c774be49 100644
+index 947bccb93f2a5baa6236e1da1a7ec0b27c072a14..337c43f08465cb84227ca02b99f972b47a9186f5 100644
 --- a/src/main/java/net/minecraft/world/entity/LivingEntity.java
 +++ b/src/main/java/net/minecraft/world/entity/LivingEntity.java
 @@ -273,6 +273,7 @@ public abstract class LivingEntity extends Entity implements Attackable {

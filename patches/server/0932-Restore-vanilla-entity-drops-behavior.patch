@@ -50,7 +50,7 @@ index 9179434d490bc8546ba3a35434998b9fc916e6b2..b032ce115b98af0e0384fb88ca88075e
          if (entityitem == null) {
              return null;
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index 9e3fef06ff458d8df327acb9eb740f755e2b34de..6342b9142ca6c3e17020911f95a81a4be3ca0401 100644
+index 948d17b13f07ca0b9160770e3b92d903d1b70407..d6ec2fe1a4a004a2d2f7d6e5bfd8fd45b27ebb7a 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -2523,6 +2523,25 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess
@@ -104,7 +104,7 @@ index 9e3fef06ff458d8df327acb9eb740f755e2b34de..6342b9142ca6c3e17020911f95a81a4b
              return this.spawnAtLocation(entityitem);
          }
 diff --git a/src/main/java/net/minecraft/world/entity/LivingEntity.java b/src/main/java/net/minecraft/world/entity/LivingEntity.java
-index 853196418b29bb6013fcf22b3bc873a5b06820b7..ae63033bab20bec39e0562421e7a3f449648a69d 100644
+index d0adf2740fe493af2486f78cf015db8bab47e642..cb07999629ba2d56602b3ae06ef06e350a8d1fb1 100644
 --- a/src/main/java/net/minecraft/world/entity/LivingEntity.java
 +++ b/src/main/java/net/minecraft/world/entity/LivingEntity.java
 @@ -266,7 +266,7 @@ public abstract class LivingEntity extends Entity implements Attackable {
@@ -165,7 +165,7 @@ index 767f076c6fad7a1146bc409bf47f1d2fc3caf3ce..095a678e3ff7b2bd713fe5bc8542b35a
              }
          }
 diff --git a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
-index 31c35ccbd84fab60fcf30d0d00f1ee38c05e78ca..d94f59e6de51da2c4b261957e8bb21ba90ef9f91 100644
+index 64d4246b9d13e6fe8b638c4a6b664f87fc0e66a0..8b322ade83e8e571af7c2e91a3c0d0784a7b9fad 100644
 --- a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 +++ b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 @@ -964,18 +964,24 @@ public class CraftEventFactory {

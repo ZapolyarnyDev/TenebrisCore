@@ -13,7 +13,7 @@ By skipping this, we avoid potential for a large spike on server start.
 public net.minecraft.server.level.ServerPlayer fudgeSpawnLocation(Lnet/minecraft/server/level/ServerLevel;)V
 
 diff --git a/src/main/java/net/minecraft/server/level/ServerPlayer.java b/src/main/java/net/minecraft/server/level/ServerPlayer.java
-index a55707fc74f6cc2ac1e1f1f6dc60e3de9ccbbb5e..188d087576944cc19794151ed380c7471afc8b16 100644
+index 5d42a20c2b908858c3b61a8100addec5100b33a0..1856f0692f1894614a9366378b3209a87a1253ec 100644
 --- a/src/main/java/net/minecraft/server/level/ServerPlayer.java
 +++ b/src/main/java/net/minecraft/server/level/ServerPlayer.java
 @@ -353,7 +353,7 @@ public class ServerPlayer extends Player {

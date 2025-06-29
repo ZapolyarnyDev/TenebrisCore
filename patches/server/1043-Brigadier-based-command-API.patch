@@ -2315,7 +2315,7 @@ index a0ec6c3d122ad28d65d37f1b9f82541997b37d37..c6d7ee0d498bd92d4321acd30ade10ab
  
      public void tick() {
 diff --git a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
-index eb4fc900164d1fb3a78653ae8bc42ea30323f5b7..2eb9c584cc77237f1c82d880a51a3f8b51008d73 100644
+index 5678414a608623a7698f72173fef87bde44f6aaa..ad967cc2283f902c76e48a59d59cf0dbdacbb5e3 100644
 --- a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 +++ b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 @@ -233,7 +233,6 @@ public class DedicatedServer extends MinecraftServer implements ServerInterface

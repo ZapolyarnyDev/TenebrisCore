@@ -5,7 +5,7 @@ Subject: [PATCH] Add back EntityPortalExitEvent
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index 325d8551d4f6c1d24525fab607769a75320cf436..2d98bdae7e8686d8a15e8938a16d8d63f0575bef 100644
+index 56de24f923571aff124ae64b737cbdf482d4b847..5d4fa3823a6dbb6150e4b97cf3973eb254018e38 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -3312,6 +3312,28 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess

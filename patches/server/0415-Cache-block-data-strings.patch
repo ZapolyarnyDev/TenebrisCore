@@ -5,7 +5,7 @@ Subject: [PATCH] Cache block data strings
 
 
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index a7de512a019a51d3133d4304b9ef80a6b6b6b80d..c2182db2233d765713089367804bf542d11af73c 100644
+index f5a2645afc64f3ba9ee21e6442697d6eb2fabb13..8e88345ad3514380cd88e38e81d6359324afd569 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -2125,6 +2125,7 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa

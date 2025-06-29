@@ -51,7 +51,7 @@ index b90b525faa5bba684c783a56f136532a8195de84..5a13975fc9a472308ee74401f7b1f84f
      @Override
      public void doCloseContainer() {
 diff --git a/src/main/java/net/minecraft/world/entity/player/Player.java b/src/main/java/net/minecraft/world/entity/player/Player.java
-index f18e370399fb36040cec64dd7bee4915e3cb56d7..461129261d93ca9831f347c9612c6f38cbbd8ac9 100644
+index 07afb966626d86b065e138959e9ffcac27a0d5d2..9f3d1a5407635d740adb6722930c94781a021015 100644
 --- a/src/main/java/net/minecraft/world/entity/player/Player.java
 +++ b/src/main/java/net/minecraft/world/entity/player/Player.java
 @@ -509,6 +509,11 @@ public abstract class Player extends LivingEntity {

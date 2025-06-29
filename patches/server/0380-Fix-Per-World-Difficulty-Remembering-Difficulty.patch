@@ -63,7 +63,7 @@ index 997a96a21440ae72696d68f8031ece4ba487d3ef..3d8584929cee000ae7df10c5bd94f358
                  return Component.translatable("commands.difficulty.success", difficulty.getDisplayName());
              }, true);
 diff --git a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
-index 3d33504eac6af17c8833de11226968d52f96232f..4d7c2832a9cd9a88b99c837a02df7fa91e572658 100644
+index 539a8ddfcf660bf824325516c88cf91f4a32a746..1bc8217cf1df95edadd57e18a91885808d31cb93 100644
 --- a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 +++ b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 @@ -346,7 +346,7 @@ public class DedicatedServer extends MinecraftServer implements ServerInterface

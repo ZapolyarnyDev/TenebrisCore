@@ -17,7 +17,7 @@ keeping long lived large direct buffers in cache.
 Set system properly at server startup if not set already to help protect from this.
 
 diff --git a/src/main/java/org/bukkit/craftbukkit/Main.java b/src/main/java/org/bukkit/craftbukkit/Main.java
-index f3bce016e729d553aaa6185470bbf4317f94352b..02243b69cca7255588b43dab57e1c9ca4c3ca87f 100644
+index 6048e80241246cabf0390e11d217cd8c291d31b6..8316e0703b6c1ad81d6745f29eb697017e84c65a 100644
 --- a/src/main/java/org/bukkit/craftbukkit/Main.java
 +++ b/src/main/java/org/bukkit/craftbukkit/Main.java
 @@ -27,6 +27,7 @@ public class Main {

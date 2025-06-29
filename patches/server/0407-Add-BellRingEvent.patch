@@ -7,7 +7,7 @@ Add a new event, BellRingEvent, to trigger whenever a player rings a
 village bell. Passes along the bell block and the player who rang it.
 
 diff --git a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
-index c3c7cfc33d07b87e034fb050b0a1ca1d8b971aa6..c6408feaff6a5bd8529004e6c2e1aa76ddc8c861 100644
+index 2006573ca4bed3c3ed02bf2f38cdd248e6b123c9..50f0ea8f6892b8a3323fb5ebf5731b8245d7788a 100644
 --- a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 +++ b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 @@ -367,10 +367,11 @@ public class CraftEventFactory {

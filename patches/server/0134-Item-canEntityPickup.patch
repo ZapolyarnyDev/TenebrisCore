@@ -5,7 +5,7 @@ Subject: [PATCH] Item#canEntityPickup
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/Mob.java b/src/main/java/net/minecraft/world/entity/Mob.java
-index 426fa1798087ab1fb4198bd036f498606dce7c3f..e159da8a8dcff686e93d09a15141233915c264bf 100644
+index d4559aea807e3ee76f9dd1ecde72f77644636923..6b802f8f214e5cf2bac145e88bf8e39040cec7ea 100644
 --- a/src/main/java/net/minecraft/world/entity/Mob.java
 +++ b/src/main/java/net/minecraft/world/entity/Mob.java
 @@ -715,6 +715,11 @@ public abstract class Mob extends LivingEntity implements EquipmentUser, Targeti

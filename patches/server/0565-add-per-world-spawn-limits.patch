@@ -5,7 +5,7 @@ Subject: [PATCH] add per world spawn limits
 
 
 diff --git a/src/main/java/org/bukkit/craftbukkit/CraftWorld.java b/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
-index 26457cb201b84547875b2989f55f4f4d2c8c03ce..3e448a40aaf4c2ae61de685d060495d4cedea031 100644
+index e75d2970329dd92263bc57c7452d0c46afa3da16..e10043db80ee5dc6468c8caa16d55ad418fa3670 100644
 --- a/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
 +++ b/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
 @@ -222,6 +222,13 @@ public class CraftWorld extends CraftRegionAccessor implements World {

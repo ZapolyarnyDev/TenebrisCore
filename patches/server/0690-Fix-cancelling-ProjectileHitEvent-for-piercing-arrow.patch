@@ -15,7 +15,7 @@ piercing arrows to avoid duplicate damage being applied.
 protected net.minecraft.world.entity.projectile.Projectile hitCancelled
 
 diff --git a/src/main/java/net/minecraft/world/entity/projectile/AbstractArrow.java b/src/main/java/net/minecraft/world/entity/projectile/AbstractArrow.java
-index 8e8258333e181491b2d5b61ebdb80de36e8179a9..fc5913910f5614cd3e10cd9c1aa482a4b70ac260 100644
+index 427e889f58c86f7649fc1b661d55277599b320c0..f1bf129aecb6840d79c537338e4057557f07790b 100644
 --- a/src/main/java/net/minecraft/world/entity/projectile/AbstractArrow.java
 +++ b/src/main/java/net/minecraft/world/entity/projectile/AbstractArrow.java
 @@ -305,6 +305,19 @@ public abstract class AbstractArrow extends Projectile {

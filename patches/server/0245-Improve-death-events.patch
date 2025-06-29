@@ -80,7 +80,7 @@ index c96e761dd29dbad42d590a88f1742c9a494eebfc..a0801437d631b148d435b3700e60f97f
          }
      }
 diff --git a/src/main/java/net/minecraft/world/entity/LivingEntity.java b/src/main/java/net/minecraft/world/entity/LivingEntity.java
-index 5583c67f093a68cc6727cf03ce3e98559bbf3b49..69ffb72df34454b601d58af624594f410e5ea8df 100644
+index 1a64ea5e875fe0d362d3e76cf9d112b238b67bbe..59a1cdbfdde5bc167d46eeb86cf2f54f9d0d8404 100644
 --- a/src/main/java/net/minecraft/world/entity/LivingEntity.java
 +++ b/src/main/java/net/minecraft/world/entity/LivingEntity.java
 @@ -271,6 +271,7 @@ public abstract class LivingEntity extends Entity implements Attackable {
@@ -232,7 +232,7 @@ index 5583c67f093a68cc6727cf03ce3e98559bbf3b49..69ffb72df34454b601d58af624594f41
      // CraftBukkit start
      public int getExpReward() {
 diff --git a/src/main/java/net/minecraft/world/entity/Mob.java b/src/main/java/net/minecraft/world/entity/Mob.java
-index e159da8a8dcff686e93d09a15141233915c264bf..4c0f7741e199e4bb03767effda669bbbc9f0d233 100644
+index 42d374959909ae13376055c869b6f5e493a710a5..2d2f2f8320df7650a6fc746d7071c9ffdbb8e2d4 100644
 --- a/src/main/java/net/minecraft/world/entity/Mob.java
 +++ b/src/main/java/net/minecraft/world/entity/Mob.java
 @@ -1170,6 +1170,12 @@ public abstract class Mob extends LivingEntity implements EquipmentUser, Targeti
@@ -426,7 +426,7 @@ index b1867bb5c07b70b1cc8e5d3065a78b37c235a11e..029d5756f424dba57b4a974b09453c2f
          // CraftBukkit end
          this.gameEvent(GameEvent.ENTITY_DIE);
 diff --git a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
-index bd151c63a957b0540051aeb60be63c234c6d27bb..f113add7e0ff9301b8ca1feeef1cc4e2899f7c04 100644
+index 44faaf75631a00caaa659fc44c35779b7dee510d..eb021ba25053cdfd4b221f669104f6442d18b102 100644
 --- a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 +++ b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 @@ -2499,7 +2499,14 @@ public class CraftPlayer extends CraftHumanEntity implements Player {
@@ -446,7 +446,7 @@ index bd151c63a957b0540051aeb60be63c234c6d27bb..f113add7e0ff9301b8ca1feeef1cc4e2
  
      public void injectScaledMaxHealth(Collection<AttributeInstance> collection, boolean force) {
 diff --git a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
-index f0f00d459ef93ac8e716067b2160fed1433ce0b3..6d947a11bc94cb8792a3ce0b5314d7226485e8ab 100644
+index 321c3e48e520865d2e226a8773af0bd4b5f3d5bb..3d8c4cc4d1bdd8c5ceea65fc2189070098410849 100644
 --- a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 +++ b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 @@ -892,9 +892,16 @@ public class CraftEventFactory {

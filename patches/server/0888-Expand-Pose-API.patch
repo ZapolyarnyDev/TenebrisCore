@@ -5,7 +5,7 @@ Subject: [PATCH] Expand Pose API
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index 3aeb24963ce0415e97168196cbf53e8f26334013..de841b91b0a0c10c4b9f4dfdd3858c83f81ad183 100644
+index 27d736d34c91c08782fa8fd60742e296580e08f2..73669ce44d3b62183f983365df5a46c10e1458bf 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -420,6 +420,7 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess

@@ -16,7 +16,7 @@ sideeffects, meaning the disable event cannot share a handlerlist with
 the cooldown event
 
 diff --git a/src/main/java/net/minecraft/world/entity/player/Player.java b/src/main/java/net/minecraft/world/entity/player/Player.java
-index dad2b84a2220368f2da005e217d73c63bb540a08..ebb70bfa34750227cda55b56764446833d3e1df6 100644
+index 32f6c029bf2f9a16d48ac73ff217c7462c64f175..9952da86af1a1a050e7485675ca2d6fb83d02422 100644
 --- a/src/main/java/net/minecraft/world/entity/player/Player.java
 +++ b/src/main/java/net/minecraft/world/entity/player/Player.java
 @@ -989,7 +989,7 @@ public abstract class Player extends LivingEntity {

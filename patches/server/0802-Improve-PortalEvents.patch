@@ -5,7 +5,7 @@ Subject: [PATCH] Improve PortalEvents
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index 9163d565c63db3bffcbe1b002e315c31b726d6a3..661f630b38dff4aa760e7939ff80b1361d426565 100644
+index b2dad4867371f4976ceb6a6a2129b314e02f50aa..51f1f00e9e68abb9a098a193f8201715ae73a8e4 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -3518,7 +3518,14 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess

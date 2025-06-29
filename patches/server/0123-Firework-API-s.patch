@@ -7,7 +7,7 @@ Subject: [PATCH] Firework API's
 public net.minecraft.world.entity.projectile.FireworkRocketEntity attachedToEntity
 
 diff --git a/src/main/java/net/minecraft/world/entity/projectile/FireworkRocketEntity.java b/src/main/java/net/minecraft/world/entity/projectile/FireworkRocketEntity.java
-index f180488e3613277ed91a5e83963187f33f26b2ea..3df4005b6ddc075e5922c1e96e4ceb21d8b8ea43 100644
+index f525fafc638c7252c99b6d98cf579be11ca5463e..6671796d292fbc922a94271136f5a7a4bbdedaca 100644
 --- a/src/main/java/net/minecraft/world/entity/projectile/FireworkRocketEntity.java
 +++ b/src/main/java/net/minecraft/world/entity/projectile/FireworkRocketEntity.java
 @@ -42,6 +42,7 @@ public class FireworkRocketEntity extends Projectile implements ItemSupplier {

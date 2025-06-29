@@ -19,7 +19,7 @@ index 6b3cde6d4d1e63bec01f502f2027ee9fddac08aa..46449728f69ee7d4f78470f8da23c055
  
      private MinecraftTimings() {}
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 478d238c8d8d41a1d27f305849bd216ec2e894f5..4f076eae3a9c597e41f4520dae8378ec429d9f69 100644
+index 03552ca486807d057147f6a05f024989d593d046..64ae2745c3144d43cad12dfe9baf1a291756d129 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -1411,8 +1411,79 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa
@@ -103,7 +103,7 @@ index 478d238c8d8d41a1d27f305849bd216ec2e894f5..4f076eae3a9c597e41f4520dae8378ec
          } else {
              boolean ret = false; // Paper - force execution of all worlds, do not just bias the first
 diff --git a/src/main/java/net/minecraft/server/level/ServerChunkCache.java b/src/main/java/net/minecraft/server/level/ServerChunkCache.java
-index c7b7f153895a4b95b2071a31db00c9c4b69fa094..7fbeebe63f755624b967374072aa2e0565ce8c35 100644
+index 6b258a2bd85bb71b030d42b488e1a4742d1e147d..01577dbb16ff6abc9edcf897f7fadaad14350184 100644
 --- a/src/main/java/net/minecraft/server/level/ServerChunkCache.java
 +++ b/src/main/java/net/minecraft/server/level/ServerChunkCache.java
 @@ -559,6 +559,7 @@ public class ServerChunkCache extends ChunkSource {

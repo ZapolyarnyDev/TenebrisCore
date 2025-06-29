@@ -16,7 +16,7 @@ So even if something NEW comes up, it would be impossible to drop the
 same item twice because the source was destroyed.
 
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index b93185f50bd87d070ef08b9c6a714a065dd714d8..996ca6762fe45ee1c2fa2392ed6a050be9df5ac6 100644
+index 33329cb73324ea3e005d59ee3f9ea1225ada7055..fcdfe37d2135190e44527190976a718b2f9359c5 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -2446,11 +2446,12 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess
@@ -80,7 +80,7 @@ index b93185f50bd87d070ef08b9c6a714a065dd714d8..996ca6762fe45ee1c2fa2392ed6a050b
  
      public float getBlockExplosionResistance(Explosion explosion, BlockGetter world, BlockPos pos, BlockState blockState, FluidState fluidState, float max) {
 diff --git a/src/main/java/net/minecraft/world/entity/LivingEntity.java b/src/main/java/net/minecraft/world/entity/LivingEntity.java
-index bff839920bdac3e5d31fe411bda6ec6cbfc1303a..26affae253104122531ebac4358412c992db3a76 100644
+index accb574f961114f225596a633b36a91e3009ed87..a4d5e0ffbdade4e1b15d30de6e60feddda697c24 100644
 --- a/src/main/java/net/minecraft/world/entity/LivingEntity.java
 +++ b/src/main/java/net/minecraft/world/entity/LivingEntity.java
 @@ -1734,9 +1734,9 @@ public abstract class LivingEntity extends Entity implements Attackable {
@@ -135,7 +135,7 @@ index 029d5756f424dba57b4a974b09453c2f0cf0e8e2..e1f6853c450a2e6a0d7607f1faec7bc5
              }
          }
 diff --git a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
-index 74fc73549b504eb2b7fcaa141aa125f84a077ed9..ac4a8c9d4f727f3caa16f6dc5497d69f9db52aab 100644
+index c0f0627d3c303e625be584c6eba5865f5622490f..18d1e2ff18cae10ec6f1b7adf480bd6bfe738584 100644
 --- a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 +++ b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 @@ -894,6 +894,11 @@ public class CraftEventFactory {

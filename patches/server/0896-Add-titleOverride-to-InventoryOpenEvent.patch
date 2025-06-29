@@ -79,7 +79,7 @@ index 3d36d79a4e7f16f6face3465cdf54656984f3ebc..41f3cdec7deabf34358b8087df77169f
          if (!player.isImmobile()) player.connection.send(new ClientboundOpenScreenPacket(container.containerId, windowType, io.papermc.paper.adventure.PaperAdventure.asVanilla(adventure$title))); // Paper - Prevent opening inventories when frozen
          player.containerMenu = container;
 diff --git a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
-index ae4a7249adfe707693dea4d2748590b869c2d4f9..31c35ccbd84fab60fcf30d0d00f1ee38c05e78ca 100644
+index cdb5fd2642e7c5325f11633de8d58a5a8cdc2c77..64d4246b9d13e6fe8b638c4a6b664f87fc0e66a0 100644
 --- a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 +++ b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 @@ -1381,10 +1381,21 @@ public class CraftEventFactory {

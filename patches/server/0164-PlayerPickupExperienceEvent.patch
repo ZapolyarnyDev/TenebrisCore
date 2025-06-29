@@ -6,7 +6,7 @@ Subject: [PATCH] PlayerPickupExperienceEvent
 Allows plugins to cancel a player picking up an experience orb
 
 diff --git a/src/main/java/net/minecraft/world/entity/ExperienceOrb.java b/src/main/java/net/minecraft/world/entity/ExperienceOrb.java
-index 1a829f79e6f9e03ead745e13ece4d1b57195dbb4..105b07cb8efd6a4304c4cf6650affa46a7852941 100644
+index 0dd931a082a972cd62f80f32ef0c7177b0daf599..e40a6bb2055a09d6bf1a91f69a2abb5f6877a122 100644
 --- a/src/main/java/net/minecraft/world/entity/ExperienceOrb.java
 +++ b/src/main/java/net/minecraft/world/entity/ExperienceOrb.java
 @@ -319,7 +319,7 @@ public class ExperienceOrb extends Entity {

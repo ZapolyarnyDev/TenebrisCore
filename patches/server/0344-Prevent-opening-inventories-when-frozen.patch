@@ -5,7 +5,7 @@ Subject: [PATCH] Prevent opening inventories when frozen
 
 
 diff --git a/src/main/java/net/minecraft/server/level/ServerPlayer.java b/src/main/java/net/minecraft/server/level/ServerPlayer.java
-index 188d087576944cc19794151ed380c7471afc8b16..ce2df5daf3854b541ce0206ea6105c33aad3d010 100644
+index 1856f0692f1894614a9366378b3209a87a1253ec..2720fee3f0e8d1c9a3e2a13c86bf2d60fa9de26c 100644
 --- a/src/main/java/net/minecraft/server/level/ServerPlayer.java
 +++ b/src/main/java/net/minecraft/server/level/ServerPlayer.java
 @@ -703,7 +703,7 @@ public class ServerPlayer extends Player {

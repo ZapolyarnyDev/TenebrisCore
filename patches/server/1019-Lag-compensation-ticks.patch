@@ -8,7 +8,7 @@ Areas affected by lag comepnsation:
  - Eating food items
 
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 810b6099e734a5524e696beb3f25d6ca686625ea..0408d5d54fef7767ecf70e70686ad520d890ff26 100644
+index 6d7224787d328540319c76f904e00cbe96d53565..5df535aae94bbba940da5d21eb72afc945915f4c 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -315,6 +315,7 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa

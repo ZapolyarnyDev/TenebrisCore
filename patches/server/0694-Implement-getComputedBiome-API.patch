@@ -5,7 +5,7 @@ Subject: [PATCH] Implement getComputedBiome API
 
 
 diff --git a/src/main/java/org/bukkit/craftbukkit/CraftRegionAccessor.java b/src/main/java/org/bukkit/craftbukkit/CraftRegionAccessor.java
-index 4932ba59a6b70b405f7dd05358f6bb00b629d34c..d1c265733941874002f6dfc7543917af88600659 100644
+index 54a79d802806d5354db74d27c04458e8baedfa0c..4cacc8a8f5d04ea0e1f087194481fa749efa1797 100644
 --- a/src/main/java/org/bukkit/craftbukkit/CraftRegionAccessor.java
 +++ b/src/main/java/org/bukkit/craftbukkit/CraftRegionAccessor.java
 @@ -76,6 +76,13 @@ public abstract class CraftRegionAccessor implements RegionAccessor {

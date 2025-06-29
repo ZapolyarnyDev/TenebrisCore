@@ -26,7 +26,7 @@ index 8f1a2de2a5542929f8a2fdd4d38de141eda985b2..29b35b8c0a6001d626e327a82eaff26d
              // CraftBukkit end
              entityplayer1.setPos(entityplayer1.getX(), entityplayer1.getY() + 1.0D, entityplayer1.getZ());
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index 98816b5f759aa72198fb259b4df79a2cd6ee567c..8619482c85f22fb6d30e847099c59da4d0abaf6d 100644
+index 6f48af629392f4426e50f752424fc9f58985688a..26b21af65ff63c83fb3be80740e41b40f0feb944 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -244,6 +244,7 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess

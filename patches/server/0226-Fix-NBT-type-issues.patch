@@ -8,7 +8,7 @@ Addresses two issues:
 - Allay duplication cooldown is saved and exposed as a long, but loaded as an int
 
 diff --git a/src/main/java/net/minecraft/world/entity/ExperienceOrb.java b/src/main/java/net/minecraft/world/entity/ExperienceOrb.java
-index 105b07cb8efd6a4304c4cf6650affa46a7852941..adc3e6298a1946fdea029c82a9954fb5b6e24497 100644
+index e40a6bb2055a09d6bf1a91f69a2abb5f6877a122..8007d323023655052acd0cf1f3a753101e9ee74a 100644
 --- a/src/main/java/net/minecraft/world/entity/ExperienceOrb.java
 +++ b/src/main/java/net/minecraft/world/entity/ExperienceOrb.java
 @@ -302,7 +302,7 @@ public class ExperienceOrb extends Entity {

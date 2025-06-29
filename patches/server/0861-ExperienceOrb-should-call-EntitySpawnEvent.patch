@@ -5,7 +5,7 @@ Subject: [PATCH] ExperienceOrb should call EntitySpawnEvent
 
 
 diff --git a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
-index 67604683e474701ac84b6e0a2f9c93a50978147b..332fb71629dfb281656e6473fb5504557848aab5 100644
+index 16f183c8e81b8c22ca51387e9e35282ed20d651c..97ce8663744041bd57bbb1000f77a05e01156a6c 100644
 --- a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 +++ b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 @@ -735,7 +735,8 @@ public class CraftEventFactory {

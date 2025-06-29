@@ -21,7 +21,7 @@ index 344d22ae4067bccd6d42b444f6b057c9d1ea6e82..f4bf927477af23365a2d4618a1634195
  
                  return true;
 diff --git a/src/main/java/net/minecraft/world/entity/ExperienceOrb.java b/src/main/java/net/minecraft/world/entity/ExperienceOrb.java
-index 1f29ed95ef3d1904a014715028d9d591fe39231f..1a829f79e6f9e03ead745e13ece4d1b57195dbb4 100644
+index b919ae8602f54f6ec8c9c743f3e852cd4c00e97f..0dd931a082a972cd62f80f32ef0c7177b0daf599 100644
 --- a/src/main/java/net/minecraft/world/entity/ExperienceOrb.java
 +++ b/src/main/java/net/minecraft/world/entity/ExperienceOrb.java
 @@ -41,9 +41,63 @@ public class ExperienceOrb extends Entity {
@@ -247,7 +247,7 @@ index c493c324a2606a40a3a04a55cb77790614d2707b..057eca881d279c610e933ebff5fb6546
  
      }
 diff --git a/src/main/java/net/minecraft/world/entity/projectile/FishingHook.java b/src/main/java/net/minecraft/world/entity/projectile/FishingHook.java
-index 6b3cf71d7ced6405308b41ac316040bcc03f654d..453da998a98eabe5a55a968277b71bd9998f3221 100644
+index 1eeb61688cae52bb25ef6d9ac4f0a0df3d34f846..c3a035742271611f2d26cf4af0d5877369dd6558 100644
 --- a/src/main/java/net/minecraft/world/entity/projectile/FishingHook.java
 +++ b/src/main/java/net/minecraft/world/entity/projectile/FishingHook.java
 @@ -524,7 +524,7 @@ public class FishingHook extends Projectile {

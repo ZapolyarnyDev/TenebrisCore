@@ -22,7 +22,7 @@ This patch corrects this behaviour by only shrinking the item if a totem
 of undying was found and the event was called uncancelled.
 
 diff --git a/src/main/java/net/minecraft/world/entity/LivingEntity.java b/src/main/java/net/minecraft/world/entity/LivingEntity.java
-index 8a4977bf4d5b87ca30e048d749b6a878b1a17911..6c502f67234eee9c1446d490acde1dbe6f34119e 100644
+index 337c43f08465cb84227ca02b99f972b47a9186f5..ca5dd07e74d1ecf303091faeb4d7796bbc7a57c8 100644
 --- a/src/main/java/net/minecraft/world/entity/LivingEntity.java
 +++ b/src/main/java/net/minecraft/world/entity/LivingEntity.java
 @@ -1638,7 +1638,7 @@ public abstract class LivingEntity extends Entity implements Attackable {

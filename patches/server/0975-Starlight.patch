@@ -4342,7 +4342,7 @@ index 0000000000000000000000000000000000000000..dd995e25ae620ae36cd5eecb2fe10ad0
 +
 +}
 diff --git a/src/main/java/io/papermc/paper/command/PaperCommand.java b/src/main/java/io/papermc/paper/command/PaperCommand.java
-index 534d9c380f26d6cce3c99fa88ad2e15410535094..e47fb2aa5e885162cae5cbfc9f33ff7864bf538e 100644
+index 46bf42d5ea9e7b046f962531c5962d287cf44a41..a3f43dccb796f30f6e9389e1ae182f06e9024e96 100644
 --- a/src/main/java/io/papermc/paper/command/PaperCommand.java
 +++ b/src/main/java/io/papermc/paper/command/PaperCommand.java
 @@ -42,6 +42,7 @@ public final class PaperCommand extends Command {
@@ -5410,7 +5410,7 @@ index 88f0aca2da0e14ed5ec0513944fa0ba28b73b5d1..01d6b8683a9fa30d05b03ebfef8ee2dc
          return nbt != null ? ChunkStatus.byName(nbt.getString("Status")).getChunkType() : ChunkType.PROTOCHUNK;
      }
 diff --git a/src/main/java/org/bukkit/craftbukkit/CraftWorld.java b/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
-index 34f03dd227181a03fa90845067424a26382bab9b..4b6a04e47f5d4c071607516519098fab317dcf12 100644
+index 44ed6bd76fb9e81f6c0d99fe46173685dbbfe2a7..7aee9f6b143c89cf8d65ca55eeda808152b4dd26 100644
 --- a/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
 +++ b/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
 @@ -507,12 +507,7 @@ public class CraftWorld extends CraftRegionAccessor implements World {

@@ -173,7 +173,7 @@ index 0000000000000000000000000000000000000000..c0c2805cb045cdd835b402776a6923fe
 +
 +}
 diff --git a/src/main/java/org/bukkit/craftbukkit/CraftRegionAccessor.java b/src/main/java/org/bukkit/craftbukkit/CraftRegionAccessor.java
-index 0e307c2bb788c1ec856613b0203f5fc7aca7e85d..1d16cd01e55f3e5bb8f49ad4c9f777d30180aab5 100644
+index 5cdc44c73b536f2ed2dcd49dbeccf0f69f614dba..ef1bfab74e93f48c621e7b4a3a54f59b84bdd064 100644
 --- a/src/main/java/org/bukkit/craftbukkit/CraftRegionAccessor.java
 +++ b/src/main/java/org/bukkit/craftbukkit/CraftRegionAccessor.java
 @@ -107,6 +107,13 @@ public abstract class CraftRegionAccessor implements RegionAccessor {

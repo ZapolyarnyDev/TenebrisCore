@@ -5,7 +5,7 @@ Subject: [PATCH] Allow nerfed mobs to jump
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/Mob.java b/src/main/java/net/minecraft/world/entity/Mob.java
-index 39e71ff8528622f640950d1a9b33483a7eb68957..17c9f99e777e211437cb5d693fe247a22ae51c7d 100644
+index d615649c67b54cfd1cb083e3ddb9719255e90bc7..a9d7fd0234c88cd5d1589a05daa10ec9424e92aa 100644
 --- a/src/main/java/net/minecraft/world/entity/Mob.java
 +++ b/src/main/java/net/minecraft/world/entity/Mob.java
 @@ -126,6 +126,7 @@ public abstract class Mob extends LivingEntity implements EquipmentUser, Targeti

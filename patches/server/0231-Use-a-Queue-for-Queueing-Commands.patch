@@ -6,7 +6,7 @@ Subject: [PATCH] Use a Queue for Queueing Commands
 Lists are bad as Queues mmmkay.
 
 diff --git a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
-index 1b47e228ad7365b31d6ddd8c572d3bc5de90a591..bce5fc7337d4e29c3353600a35c999caaed1428e 100644
+index 4b844838f62f74870fa6ba0ce8dac78647f9f9e1..3736fdd1dba4fc86012c687c5525a52cb8094f47 100644
 --- a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 +++ b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 @@ -76,7 +76,7 @@ public class DedicatedServer extends MinecraftServer implements ServerInterface

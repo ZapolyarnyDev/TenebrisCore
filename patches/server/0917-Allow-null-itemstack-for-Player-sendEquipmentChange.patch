@@ -5,7 +5,7 @@ Subject: [PATCH] Allow null itemstack for Player#sendEquipmentChange
 
 
 diff --git a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
-index 027abbde974ff2c4844c3d815230d600140690a4..7fca299a92d330a46336c9fc88156d2ff18f3903 100644
+index af14b09630af4a092491e6b9a7b3f418cc82c0de..e9bd24861bca4554898306117bb533d19171cedf 100644
 --- a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 +++ b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 @@ -1125,7 +1125,7 @@ public class CraftPlayer extends CraftHumanEntity implements Player {

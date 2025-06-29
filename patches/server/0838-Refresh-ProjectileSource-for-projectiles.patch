@@ -14,7 +14,7 @@ clearing the owner.
 Co-authored-by: Warrior <50800980+Warriorrrr@users.noreply.github.com>
 
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index a6f0a1114da54f78ccb2fb6151bf14e34cd5c330..1d934225d6abbec6f231042b8a9c823ee4a26029 100644
+index c15a08c6d9277dd1d6d63a25dacce0c43b8dad05..73831000101765845c0881bba217b2ca54eb39dd 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -385,6 +385,7 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess

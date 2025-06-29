@@ -68,7 +68,7 @@ index abda6094e02ebd2589ba0e4760e574fcf44dc8e4..5ec8cbd07a1830876f58e1fd33de6df4
  
      public DamageSource sonicBoom(Entity attacker) {
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index 6342b9142ca6c3e17020911f95a81a4be3ca0401..370d00afe8384556ee92e28d253c44ed6989efab 100644
+index d6ec2fe1a4a004a2d2f7d6e5bfd8fd45b27ebb7a..62363c09111aaa31220fb260940744c097af7b3c 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -3200,7 +3200,7 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess
@@ -197,7 +197,7 @@ index 4c6e15535fa40aad8cf1920f392589404f9ba79c..35eb95ef6fb6a0f7ea63351e90741c48
      }
  }
 diff --git a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
-index df82d811e94ee466f2336b8e04bc3441474cc3d2..9f1c34ea44d00530713baf9fd40993cc5018e999 100644
+index e20feab675d05ae5b5b19870546585936c757970..96070da795755f71e99979288e32b7d7e2d869fb 100644
 --- a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 +++ b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 @@ -1084,7 +1084,7 @@ public class CraftEventFactory {

@@ -187,7 +187,7 @@ index ed5154e41ca858f4d6b4d1c276c66831c038d2a6..cdb3c2cde5d9133ef60cf96d91762e6a
  
      public String getDebugStatus() {
 diff --git a/src/main/java/net/minecraft/server/level/ServerChunkCache.java b/src/main/java/net/minecraft/server/level/ServerChunkCache.java
-index 7fbeebe63f755624b967374072aa2e0565ce8c35..36caf354634d6675a3f1ec6829f4778e1d0623bc 100644
+index 01577dbb16ff6abc9edcf897f7fadaad14350184..e2c67c011503c9c37b9d637c0268717baac13e32 100644
 --- a/src/main/java/net/minecraft/server/level/ServerChunkCache.java
 +++ b/src/main/java/net/minecraft/server/level/ServerChunkCache.java
 @@ -499,18 +499,10 @@ public class ServerChunkCache extends ChunkSource {

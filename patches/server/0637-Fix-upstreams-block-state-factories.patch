@@ -13,7 +13,7 @@ the material type of the block at that location.
 public net.minecraft.world.level.block.entity.BlockEntityType validBlocks
 
 diff --git a/src/main/java/net/minecraft/world/level/block/entity/BlockEntity.java b/src/main/java/net/minecraft/world/level/block/entity/BlockEntity.java
-index 6e24673a793017ee857cf75bf9a74105ce76b773..e3c5f99b3ad91a9bb454f9ab95b1ccff0bb7b34c 100644
+index 7147484eefad44ba67db03b6ef2090a596e278de..6f6693456cf518b7bd9eb21ba681540a40c588ef 100644
 --- a/src/main/java/net/minecraft/world/level/block/entity/BlockEntity.java
 +++ b/src/main/java/net/minecraft/world/level/block/entity/BlockEntity.java
 @@ -371,7 +371,7 @@ public abstract class BlockEntity {

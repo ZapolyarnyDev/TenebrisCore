@@ -5,7 +5,7 @@ Subject: [PATCH] Use AsyncAppender to keep logging IO off main thread
 
 
 diff --git a/build.gradle.kts b/build.gradle.kts
-index 1d9baec8ebafb694e259af6a24892a899791a550..cce667165ade3e42792516a4721c74b35e7caa2c 100644
+index b3160912aeaddf8990e3bab9fce29532cefd8dcc..5a4beeb031538af9e34914066a9b848b7beb1dc3 100644
 --- a/build.gradle.kts
 +++ b/build.gradle.kts
 @@ -34,6 +34,7 @@ dependencies {

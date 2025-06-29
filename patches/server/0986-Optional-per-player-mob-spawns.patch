@@ -39,7 +39,7 @@ index 1d2d4d38ff3414896d07f7f4e40d0edb9a8c3993..56f855ed9dbbb9a7025bef6f9e98a8cd
      private static double euclideanDistanceSquared(ChunkPos pos, Entity entity) {
          double d0 = (double) SectionPos.sectionToBlockCoord(pos.x, 8);
 diff --git a/src/main/java/net/minecraft/server/level/ServerChunkCache.java b/src/main/java/net/minecraft/server/level/ServerChunkCache.java
-index d1728e13a7b649f308bde90ab633c79d86c10822..002aad174fb1781ee963414037f84e5120488592 100644
+index e8432337df6b9ea67285f8420b4fa5fe20d657b6..41be61c8d239515975b5a73ecf448734710abd23 100644
 --- a/src/main/java/net/minecraft/server/level/ServerChunkCache.java
 +++ b/src/main/java/net/minecraft/server/level/ServerChunkCache.java
 @@ -516,7 +516,19 @@ public class ServerChunkCache extends ChunkSource {

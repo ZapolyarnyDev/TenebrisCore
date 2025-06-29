@@ -5,7 +5,7 @@ Subject: [PATCH] Expose LivingEntity hurt direction
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/player/Player.java b/src/main/java/net/minecraft/world/entity/player/Player.java
-index 8981d314a30c23d3b13087dd9c20216f57f1630d..2a2683d21d7bae023a93db422ab0aebf72ca56cb 100644
+index 37190eb2d7a8f81989908f58aa13de1ba964e43a..389da4ed8d166f840e881579db51058f44e9ee24 100644
 --- a/src/main/java/net/minecraft/world/entity/player/Player.java
 +++ b/src/main/java/net/minecraft/world/entity/player/Player.java
 @@ -187,7 +187,7 @@ public abstract class Player extends LivingEntity {

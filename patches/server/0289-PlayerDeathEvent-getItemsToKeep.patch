@@ -11,7 +11,7 @@ Example Usage: https://gist.github.com/aikar/5bb202de6057a051a950ce1f29feb0b4
 public net.minecraft.world.entity.player.Inventory compartments
 
 diff --git a/src/main/java/net/minecraft/server/level/ServerPlayer.java b/src/main/java/net/minecraft/server/level/ServerPlayer.java
-index 562cb110e979ef165004fbe10986846ab29706bd..e7da9cda8d1f4eef25d88c6d9f1cf742e2fdaaa0 100644
+index 3354c929142b56a992348ff1a6f262b36d24d3a5..d15fed8770c672b1d387f6cd3b11577ba54ebedb 100644
 --- a/src/main/java/net/minecraft/server/level/ServerPlayer.java
 +++ b/src/main/java/net/minecraft/server/level/ServerPlayer.java
 @@ -890,6 +890,46 @@ public class ServerPlayer extends Player {

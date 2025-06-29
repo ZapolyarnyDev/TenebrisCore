@@ -22,7 +22,7 @@ index f03f40e2624d0e8e27a6fb7ae33d82cb614252f4..9ef8f014af332da129bfcd3370da983e
 +
  }
 diff --git a/src/main/java/org/bukkit/craftbukkit/attribute/CraftAttributeMap.java b/src/main/java/org/bukkit/craftbukkit/attribute/CraftAttributeMap.java
-index a0a34f680e21007ebf2c2497d2e6505eedae6481..485b4d5a0ae9d8ac528749e87b4b2833732120a8 100644
+index 5678d2007d5adf45dec0638c5dd848b601801814..0a7ed5a4f1644a70d8f98ad7a6962b814ad6daf4 100644
 --- a/src/main/java/org/bukkit/craftbukkit/attribute/CraftAttributeMap.java
 +++ b/src/main/java/org/bukkit/craftbukkit/attribute/CraftAttributeMap.java
 @@ -35,4 +35,11 @@ public class CraftAttributeMap implements Attributable {

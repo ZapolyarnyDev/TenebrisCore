@@ -830,7 +830,7 @@ index 8e0dd4b7a7a25a8beb27b507047bc48d8227627c..77489c3ffaa3a72d4cf105499a77150f
      }
  }
 diff --git a/src/main/java/org/bukkit/craftbukkit/inventory/CraftMetaItem.java b/src/main/java/org/bukkit/craftbukkit/inventory/CraftMetaItem.java
-index 705d7365a7bab9fe29b90a175040e6a1623e21a7..8ccb8d71ee489891e8d9128a5520675dd3a62786 100644
+index 5d86861a0df7308ae9b8440e5d9136fa7c8f1835..60aa9dd1617d302c3b49af21d581a32313c171cc 100644
 --- a/src/main/java/org/bukkit/craftbukkit/inventory/CraftMetaItem.java
 +++ b/src/main/java/org/bukkit/craftbukkit/inventory/CraftMetaItem.java
 @@ -175,9 +175,10 @@ class CraftMetaItem implements ItemMeta, Damageable, Repairable, BlockDataMeta {

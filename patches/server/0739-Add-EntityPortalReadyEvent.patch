@@ -5,7 +5,7 @@ Subject: [PATCH] Add EntityPortalReadyEvent
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index ba6f680e9a851376960c6a3e29db5d6ca46c7e85..d6559c4dd5b6499903f8e5777710d48523104fa7 100644
+index e7c1e235ef03bb03e2788616255f7b14fa7fc0e3..46ac56626b444e9047a20ef4d383e4045768fa3f 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -2867,6 +2867,13 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess

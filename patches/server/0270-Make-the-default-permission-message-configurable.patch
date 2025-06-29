@@ -5,7 +5,7 @@ Subject: [PATCH] Make the default permission message configurable
 
 
 diff --git a/src/main/java/io/papermc/paper/command/PaperCommand.java b/src/main/java/io/papermc/paper/command/PaperCommand.java
-index 6d06b772ffb9d47d6a717462a4b2b494544e80ae..69ffd6ea2ce7c6d4f211c6081fcea79afd7eac6c 100644
+index 5b070d158760789bbcaa984426a55d20767abe4a..e1820a339452cd3388dd7cbb928c5f58779a77b6 100644
 --- a/src/main/java/io/papermc/paper/command/PaperCommand.java
 +++ b/src/main/java/io/papermc/paper/command/PaperCommand.java
 @@ -73,7 +73,7 @@ public final class PaperCommand extends Command {

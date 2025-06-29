@@ -5,7 +5,7 @@ Subject: [PATCH] Async GameProfileCache saving
 
 
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 9db493f4eb356b10ea3be421e22d806ca7355adc..fb0904312cad3a8853f2f92888f9e21c3ab50f27 100644
+index be0bb759dafa149f7c4bc560dcbf51dfd45b4dd8..fca7340f5b0dbbf072a752e7e7b589dbaeb17d50 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -992,7 +992,7 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa
@@ -18,7 +18,7 @@ index 9db493f4eb356b10ea3be421e22d806ca7355adc..fb0904312cad3a8853f2f92888f9e21c
          // Spigot end
  
 diff --git a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
-index a6126515e497cb0769bdc96881389026196bbbae..2caebd76cd533cf6874b6461b496e76e8ec85d61 100644
+index 1b38916d8e9241bd45523e692c04bf69430b64f9..14e5378ee40aeca85ce9cad87eb4574faef83448 100644
 --- a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 +++ b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 @@ -266,7 +266,7 @@ public class DedicatedServer extends MinecraftServer implements ServerInterface

@@ -5,7 +5,7 @@ Subject: [PATCH] Forward CraftEntity in teleport command
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index 50aca89516dea3f4c4d668b994f4afdea69b4cc9..af1b161e5e61fe244b316d352452038c9b4ea458 100644
+index 7966d45adcbc239a506ab4aa2923a6df0dc36c03..1632b2231e20901ce8498f3a0442e9ea54fcc068 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -3284,6 +3284,13 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess

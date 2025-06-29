@@ -63,7 +63,7 @@ index 6097e0ab387cfa4c2c9ab0389fc5bb6cd899ecc3..ebba6bc5b337d19e32be5a78294501ed
  
      public static void clear() {
 diff --git a/src/main/java/org/bukkit/craftbukkit/profile/CraftPlayerProfile.java b/src/main/java/org/bukkit/craftbukkit/profile/CraftPlayerProfile.java
-index 44174c5a7b255af489c1e4bf589299e6bdbb90a3..ab18b1d480f7ecc0ad9a51471d8f45b0da74d8cf 100644
+index 94cae8f3c13d0afcbe97478fba34ff4f12f8c7ee..c49db689827b20ad211f06b9bad7062c8ef82c68 100644
 --- a/src/main/java/org/bukkit/craftbukkit/profile/CraftPlayerProfile.java
 +++ b/src/main/java/org/bukkit/craftbukkit/profile/CraftPlayerProfile.java
 @@ -136,7 +136,7 @@ public final class CraftPlayerProfile implements PlayerProfile {

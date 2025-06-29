@@ -6,7 +6,7 @@ Subject: [PATCH] Fix EntityCombustEvent cancellation cant fully prevent
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index d6559c4dd5b6499903f8e5777710d48523104fa7..bc44f69281472c4c5c1137ebf355f805dbfcafa8 100644
+index 46ac56626b444e9047a20ef4d383e4045768fa3f..6fefd0e1dd2601914b2790469bfcbd04cd9b1a28 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -3132,6 +3132,10 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess

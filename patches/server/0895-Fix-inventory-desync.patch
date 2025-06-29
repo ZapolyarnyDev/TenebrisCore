@@ -17,7 +17,7 @@ index a79023c9e3265221e55cae1879f9c0052dafbef6..88ea8ed1b81ece6315bc8dcde04b5fa1
          this.containerMenu.findSlot(this.getInventory(), this.getInventory().selected).ifPresent(s -> {
              this.containerSynchronizer.sendSlotChange(this.containerMenu, s, this.getMainHandItem());
 diff --git a/src/main/java/net/minecraft/world/entity/Mob.java b/src/main/java/net/minecraft/world/entity/Mob.java
-index babbcee2892990b626afed76b75861f0d42cf571..13c4edabb3671357d07a27d3e6403ed66a5028d5 100644
+index 5b169de9c2a34044dcf46c613291ae56a83ad5d2..80f0831fbd78ece360fe5ea850146a61dbe8c23c 100644
 --- a/src/main/java/net/minecraft/world/entity/Mob.java
 +++ b/src/main/java/net/minecraft/world/entity/Mob.java
 @@ -1466,8 +1466,9 @@ public abstract class Mob extends LivingEntity implements EquipmentUser, Targeti

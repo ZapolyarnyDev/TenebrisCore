@@ -5,7 +5,7 @@ Subject: [PATCH] Collision option for requiring a player participant
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index da31287d60c60f01bf274f23c6bb23803f9658fb..715185c5f6ccb15bda34a2a4722609ac25421f90 100644
+index cac4c1bd5d4ee89e4366b7e11fbf01903e953ed9..21150f44e4f71aba3801d5392e45243112d012c0 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -1871,6 +1871,7 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess

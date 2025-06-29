@@ -277,7 +277,7 @@ index a4c34e9415632354d33668a38d06453ada4d3c77..cbf13e4f2da6a27619e9bc9a7cd73bb6
  
          @Override
 diff --git a/src/main/java/org/spigotmc/SpigotWorldConfig.java b/src/main/java/org/spigotmc/SpigotWorldConfig.java
-index 41f4416d820ed1ca2d02b457749cbb6c3dbb20af..5485df1a1b59e81f4dcedd21dd972e1fd2759573 100644
+index 44bdd0e6cdcabcb4deedd9aa3340330db2370615..37bbda040bd6f8a92295d2f32affbb53ea2d369b 100644
 --- a/src/main/java/org/spigotmc/SpigotWorldConfig.java
 +++ b/src/main/java/org/spigotmc/SpigotWorldConfig.java
 @@ -322,6 +322,18 @@ public class SpigotWorldConfig

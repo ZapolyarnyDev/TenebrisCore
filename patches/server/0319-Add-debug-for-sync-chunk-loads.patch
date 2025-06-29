@@ -194,7 +194,7 @@ index 0000000000000000000000000000000000000000..404a8fd128043527d23f22ee26f7c8c7
 +    }
 +}
 diff --git a/src/main/java/io/papermc/paper/command/PaperCommand.java b/src/main/java/io/papermc/paper/command/PaperCommand.java
-index 69ffd6ea2ce7c6d4f211c6081fcea79afd7eac6c..69d093d3450931038ac3d27d7874060d13dc2225 100644
+index e1820a339452cd3388dd7cbb928c5f58779a77b6..3010d57efcc97fb409bfe43b1fc9af198c099a67 100644
 --- a/src/main/java/io/papermc/paper/command/PaperCommand.java
 +++ b/src/main/java/io/papermc/paper/command/PaperCommand.java
 @@ -38,6 +38,7 @@ public final class PaperCommand extends Command {
@@ -300,7 +300,7 @@ index 0000000000000000000000000000000000000000..95d6022c9cfb2e36ec5a71be6e343540
 +    }
 +}
 diff --git a/src/main/java/net/minecraft/server/level/ServerChunkCache.java b/src/main/java/net/minecraft/server/level/ServerChunkCache.java
-index d41c0e4474d057c7b13427bfd896c50f24232615..2d9d4d06b75873f888ef4d8f5779a52706f821a8 100644
+index fa2df210b05529d228c5ee208f125dcf5288dfec..0e89cf0742b9443f5256081987242554de24d893 100644
 --- a/src/main/java/net/minecraft/server/level/ServerChunkCache.java
 +++ b/src/main/java/net/minecraft/server/level/ServerChunkCache.java
 @@ -279,6 +279,7 @@ public class ServerChunkCache extends ChunkSource {

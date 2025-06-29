@@ -8,7 +8,7 @@ This is because bukkit uses a separate head rotation field for yaw.
 This issue only applies to players.
 
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index 96c9feb545c02014c324852344a1d86156c32237..df7741ca931d7d1eb1b0cbdcc2b2bb15875c750c 100644
+index ebacae6f39fea052f4fb7c60f7164763b49f8148..0034e06a3caa89dfbb24a75d377d799ca0e8aed0 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -1813,6 +1813,7 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess

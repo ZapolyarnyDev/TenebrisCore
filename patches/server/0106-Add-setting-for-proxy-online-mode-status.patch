@@ -6,7 +6,7 @@ Subject: [PATCH] Add setting for proxy online mode status
 TODO: Add isProxyOnlineMode check to Metrics
 
 diff --git a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
-index 2caebd76cd533cf6874b6461b496e76e8ec85d61..0ffa25a6e41cc56e78c79e0cee45e3b811794129 100644
+index 14e5378ee40aeca85ce9cad87eb4574faef83448..2d877bf61cf0a7829278e6af096f5401edfe1981 100644
 --- a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 +++ b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 @@ -589,7 +589,11 @@ public class DedicatedServer extends MinecraftServer implements ServerInterface

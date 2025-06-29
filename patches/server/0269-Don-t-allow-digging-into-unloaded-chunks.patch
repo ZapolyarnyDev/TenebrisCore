@@ -5,7 +5,7 @@ Subject: [PATCH] Don't allow digging into unloaded chunks
 
 
 diff --git a/src/main/java/net/minecraft/server/level/ServerPlayerGameMode.java b/src/main/java/net/minecraft/server/level/ServerPlayerGameMode.java
-index 5f2dec1917f1c1c3bb69446832321f3fc21dc129..cd6f34ee326228036f8c025e4e6d04e0c15ba06f 100644
+index e2d8bb349591d103606b158bc116b09d333c87ce..cbb17ce25cb6218bcf95c2f1c3d0288eeee13a46 100644
 --- a/src/main/java/net/minecraft/server/level/ServerPlayerGameMode.java
 +++ b/src/main/java/net/minecraft/server/level/ServerPlayerGameMode.java
 @@ -122,8 +122,8 @@ public class ServerPlayerGameMode {

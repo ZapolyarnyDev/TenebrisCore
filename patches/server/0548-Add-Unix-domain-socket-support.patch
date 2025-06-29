@@ -5,7 +5,7 @@ Subject: [PATCH] Add Unix domain socket support
 
 
 diff --git a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
-index 5d62639b18d0bf8f5f7c8adc3470a6087980241b..4bc7b3d7c5214b3272614fe3fce8e4d8d2264867 100644
+index c0261c3cd6de850edbd197272c2d1c52f76e6ebe..b8043b7e778792153620923ea228c1a211c27969 100644
 --- a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 +++ b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 @@ -232,6 +232,20 @@ public class DedicatedServer extends MinecraftServer implements ServerInterface

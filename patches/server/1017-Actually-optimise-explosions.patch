@@ -34,7 +34,7 @@ The results indicate that this logic is 5 times faster than Vanilla
 and 2.3 times faster than Lithium.
 
 diff --git a/src/main/java/net/minecraft/world/level/Explosion.java b/src/main/java/net/minecraft/world/level/Explosion.java
-index ff0eb772fb272b0bcdf948e79b284039b55311b0..8611725989cff89d809e6b8837d8dbd7e4da2494 100644
+index ef40b996864c81d7e8fbb0727ea0a96f866c725f..638447e8cb74b26f4f8e3862c2fb4a3048979ebc 100644
 --- a/src/main/java/net/minecraft/world/level/Explosion.java
 +++ b/src/main/java/net/minecraft/world/level/Explosion.java
 @@ -112,6 +112,271 @@ public class Explosion {

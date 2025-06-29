@@ -43,7 +43,7 @@ index 66936834a80ef6b645ab44f3439defcb90237bfa..406c78dcb97d954f16f05d379d4dbf74
              EntityType<?> entitytypes = entity.getType();
              int i = entitytypes.clientTrackingRange() * 16;
 diff --git a/src/main/java/net/minecraft/server/level/ServerPlayer.java b/src/main/java/net/minecraft/server/level/ServerPlayer.java
-index 234b290896ba9dfb36d110740cd0494b0fbfe1e4..dde6d567521a08b416ee50b1249b653b0bf6e87a 100644
+index f9b2bbda1cbd16f8635d6fff05bb5c0e26a5e6f1..bf6c81300d29c445a1012d1159866547c202d135 100644
 --- a/src/main/java/net/minecraft/server/level/ServerPlayer.java
 +++ b/src/main/java/net/minecraft/server/level/ServerPlayer.java
 @@ -284,6 +284,7 @@ public class ServerPlayer extends Player {

@@ -8,7 +8,7 @@ This can realistically only happen if there's custom loot active on fishing
 which can return 0 items. This would disconnect the player who's fishing.
 
 diff --git a/src/main/java/net/minecraft/world/entity/projectile/FishingHook.java b/src/main/java/net/minecraft/world/entity/projectile/FishingHook.java
-index 453da998a98eabe5a55a968277b71bd9998f3221..a9ea83ea03ab23abc1eb463dadcdd742bfa20036 100644
+index c3a035742271611f2d26cf4af0d5877369dd6558..7d557c7ec6fb1763395f4920a170bd4e4ba6747f 100644
 --- a/src/main/java/net/minecraft/world/entity/projectile/FishingHook.java
 +++ b/src/main/java/net/minecraft/world/entity/projectile/FishingHook.java
 @@ -505,9 +505,15 @@ public class FishingHook extends Projectile {

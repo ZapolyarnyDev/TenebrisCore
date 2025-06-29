@@ -6,7 +6,7 @@ Subject: [PATCH] Write SavedData IO async
 Co-Authored-By: Shane Freeder <theboyetronic@gmail.com>
 
 diff --git a/src/main/java/net/minecraft/server/level/ServerChunkCache.java b/src/main/java/net/minecraft/server/level/ServerChunkCache.java
-index 36caf354634d6675a3f1ec6829f4778e1d0623bc..b99f50604bafecbc68835974c9ed0caa91911a40 100644
+index e2c67c011503c9c37b9d637c0268717baac13e32..fcecfda569d2a8d6b8a7e228831f822fb7327748 100644
 --- a/src/main/java/net/minecraft/server/level/ServerChunkCache.java
 +++ b/src/main/java/net/minecraft/server/level/ServerChunkCache.java
 @@ -447,6 +447,13 @@ public class ServerChunkCache extends ChunkSource {

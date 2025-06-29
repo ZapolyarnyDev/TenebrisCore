@@ -5,7 +5,7 @@ Subject: [PATCH] Prevent entity loading causing async lookups
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index 3d02354bb2c058ddd48beadb3d6af4480ea6b307..e241286d52dcb934a7430d24a114e34f23ec56ba 100644
+index 85fd7ad12e059f88bacf2d7c27715dcbd8fa3d4e..608bc43bd84f10d5610133b041aff8e3a32f178a 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -739,6 +739,7 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess

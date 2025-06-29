@@ -30,7 +30,7 @@ index ac900dfdc5c90e9e60d47efa734be8f0a5b20dca..ec1cb034d840633240f2b379b09f7d2f
          }
      }
 diff --git a/src/main/java/net/minecraft/world/level/block/entity/BlockEntity.java b/src/main/java/net/minecraft/world/level/block/entity/BlockEntity.java
-index e3c5f99b3ad91a9bb454f9ab95b1ccff0bb7b34c..d2939e12449ae6b2b57beff7e689a0d39212161d 100644
+index 6f6693456cf518b7bd9eb21ba681540a40c588ef..6207c6063cd11ccb1177fe7016c49c02a3416990 100644
 --- a/src/main/java/net/minecraft/world/level/block/entity/BlockEntity.java
 +++ b/src/main/java/net/minecraft/world/level/block/entity/BlockEntity.java
 @@ -378,6 +378,14 @@ public abstract class BlockEntity {

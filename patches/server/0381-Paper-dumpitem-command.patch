@@ -6,7 +6,7 @@ Subject: [PATCH] Paper dumpitem command
 Let's you quickly view the item in your hands NBT data
 
 diff --git a/src/main/java/io/papermc/paper/command/PaperCommand.java b/src/main/java/io/papermc/paper/command/PaperCommand.java
-index 69d093d3450931038ac3d27d7874060d13dc2225..27775df10a490ff75ca377e8373931738f1b817c 100644
+index 3010d57efcc97fb409bfe43b1fc9af198c099a67..cdad0fd5257ae842f83b9c1c98b4565b468d4f54 100644
 --- a/src/main/java/io/papermc/paper/command/PaperCommand.java
 +++ b/src/main/java/io/papermc/paper/command/PaperCommand.java
 @@ -39,6 +39,7 @@ public final class PaperCommand extends Command {

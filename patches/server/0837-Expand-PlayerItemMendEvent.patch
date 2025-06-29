@@ -5,7 +5,7 @@ Subject: [PATCH] Expand PlayerItemMendEvent
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/ExperienceOrb.java b/src/main/java/net/minecraft/world/entity/ExperienceOrb.java
-index 27b75172820c35b02fe6b63e379a5c9a9fa59159..fb2e9f832841a35b07db7bfe55ffd1c81322fe64 100644
+index a933061d4f0c45a34b5678c2b317b670f20b8a45..46d8bcad1545953757659870901cbbdf3340bc15 100644
 --- a/src/main/java/net/minecraft/world/entity/ExperienceOrb.java
 +++ b/src/main/java/net/minecraft/world/entity/ExperienceOrb.java
 @@ -350,7 +350,7 @@ public class ExperienceOrb extends Entity {
@@ -33,7 +33,7 @@ index 27b75172820c35b02fe6b63e379a5c9a9fa59159..fb2e9f832841a35b07db7bfe55ffd1c8
              return k > 0 ? this.repairPlayerItems(player, k) : 0;
          } else {
 diff --git a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
-index 79ab080e496df2b8d11c777427863bd775e60b91..c341c64950e2addfcf30655f1cf94bc543bbdba4 100644
+index 952728c30f8871f8ed1f27800feba7db038ad420..1b9e1038f729582117dc93736f9a089bf6481cff 100644
 --- a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 +++ b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 @@ -1835,11 +1835,11 @@ public class CraftPlayer extends CraftHumanEntity implements Player {
@@ -51,7 +51,7 @@ index 79ab080e496df2b8d11c777427863bd775e60b91..c341c64950e2addfcf30655f1cf94bc5
              }
          }
 diff --git a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
-index 4c2a09f137a5cb508317b4a72ae82d6389ad6305..95b819ef8953b2d94a76e33328c967d21bf216b4 100644
+index cbf2cd3c7005fb4148c15966079922a8b18ece91..f4ca35e044e41b3fd1b83c482a5c19d188ea0bae 100644
 --- a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 +++ b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 @@ -1264,10 +1264,10 @@ public class CraftEventFactory {

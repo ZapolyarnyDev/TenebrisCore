@@ -19,7 +19,7 @@ index df623f10def1ecf071971119f449a773063b3ce1..f079192644e3b366dc58c4a77c10cbbe
          }
  
 diff --git a/src/main/java/org/bukkit/craftbukkit/CraftWorld.java b/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
-index 630b3e9a9a89016846dba1b18ff68c11f1815685..2436d66fb3be1611885bf05b793975dc2aa1a2e8 100644
+index 8db6209b22c838d01b0b8032ad0608713cc8a54c..a493c8d12935336bb3049aa6d00eb1a4f2194c25 100644
 --- a/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
 +++ b/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
 @@ -269,12 +269,14 @@ public class CraftWorld extends CraftRegionAccessor implements World {

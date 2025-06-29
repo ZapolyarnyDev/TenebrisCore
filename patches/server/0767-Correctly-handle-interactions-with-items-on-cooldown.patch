@@ -30,7 +30,7 @@ index 7c1d3b042291a42f13ff32e9a9c6e07da47277ae..af4ee7e936dad42c458488b128d733a3
          this.interactResult = event.useItemInHand() == Event.Result.DENY;
          this.interactPosition = blockposition.immutable();
 diff --git a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
-index cbbc313f83df3bd3e87a1e2879bcf8d9de1b96dd..633d19fef92cc13bc08e63d4fa441903c8c1f49e 100644
+index bb7ae2c13b8a037b631366da337d1d43985e1845..3d26da4e2afbf29fff99c1ee352773022698e6c9 100644
 --- a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 +++ b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 @@ -545,6 +545,12 @@ public class CraftEventFactory {

@@ -22,7 +22,7 @@ index 26b8a69a528db8a836b138a2a223c385508ce2c4..5f5d8ae29ff702eacc72341fae074a05
      }
  
 diff --git a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
-index 24621c11ff91df8695eecc818e6a94a095c5a9cc..155f7053504874758d8d25a21f0ac613f81ca7d1 100644
+index f4b4e115a1f39524c2bd307c0e1aaf3c140df7c6..d6fafe977809a549e7076254d2dc6a4870af8530 100644
 --- a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 +++ b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 @@ -206,6 +206,7 @@ public class CraftPlayer extends CraftHumanEntity implements Player {

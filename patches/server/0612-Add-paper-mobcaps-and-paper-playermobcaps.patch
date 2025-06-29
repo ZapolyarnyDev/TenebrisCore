@@ -10,7 +10,7 @@ Also has a hover text on each mob category listing what entity types are
 in said category
 
 diff --git a/src/main/java/io/papermc/paper/command/PaperCommand.java b/src/main/java/io/papermc/paper/command/PaperCommand.java
-index 27775df10a490ff75ca377e8373931738f1b817c..c9bb2df0d884227576ed8d2e72219bbbd7ba827e 100644
+index cdad0fd5257ae842f83b9c1c98b4565b468d4f54..fd4f37711989431f997d77fb0917f8a9232ce53f 100644
 --- a/src/main/java/io/papermc/paper/command/PaperCommand.java
 +++ b/src/main/java/io/papermc/paper/command/PaperCommand.java
 @@ -40,6 +40,7 @@ public final class PaperCommand extends Command {

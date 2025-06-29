@@ -122,7 +122,7 @@ index bdad61438e7fd89f5f0cac6632dd395fcf024361..019034eea40c1669ce3d774565ce71c0
  
      private void tickPassenger(Entity vehicle, Entity passenger) {
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index b0bd8be7f657cf0accd1d7b474298c281c174589..8485d30feb6844d9659d6364c576c0b3da5dea8f 100644
+index 030e20d1030c9e9c26b2bc456ff0b477a048cd03..644cbdc15cdedb18f5b0eb9d4a2249ba131f89e5 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -1073,8 +1073,43 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess

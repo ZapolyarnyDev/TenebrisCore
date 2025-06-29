@@ -31,7 +31,7 @@ index 2da315d288efa66f7bff96923ebd5eac5130ba39..39cf7ae086108d8077121829368b8160
          if (entity.valid) {
              MinecraftServer.LOGGER.error("Attempted Double World add on {}", entity, new Throwable());
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index de841b91b0a0c10c4b9f4dfdd3858c83f81ad183..9e3fef06ff458d8df327acb9eb740f755e2b34de 100644
+index 73669ce44d3b62183f983365df5a46c10e1458bf..948d17b13f07ca0b9160770e3b92d903d1b70407 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -649,7 +649,11 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess
@@ -68,7 +68,7 @@ index d769dc472d3f12bf1e30ddd767a76659b734caac..8c7cc9c5af0b8d8bef9b6e2d3d3e723c
          }, () -> {
              EntityType.LOGGER.warn("Skipping Entity with id {}", nbt.getString("id"));
 diff --git a/src/main/java/net/minecraft/world/entity/LivingEntity.java b/src/main/java/net/minecraft/world/entity/LivingEntity.java
-index b08a7a3ab30a6e4bf8d4dd90022e446444fafa46..853196418b29bb6013fcf22b3bc873a5b06820b7 100644
+index 844da8d55e43607239b54c7cb823cf26f2b04ed1..d0adf2740fe493af2486f78cf015db8bab47e642 100644
 --- a/src/main/java/net/minecraft/world/entity/LivingEntity.java
 +++ b/src/main/java/net/minecraft/world/entity/LivingEntity.java
 @@ -1163,6 +1163,11 @@ public abstract class LivingEntity extends Entity implements Attackable {

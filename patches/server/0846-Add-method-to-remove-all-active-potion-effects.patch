@@ -5,7 +5,7 @@ Subject: [PATCH] Add method to remove all active potion effects
 
 
 diff --git a/src/main/java/org/bukkit/craftbukkit/entity/CraftLivingEntity.java b/src/main/java/org/bukkit/craftbukkit/entity/CraftLivingEntity.java
-index a231543cf4fcc442e3675ece0d4c4950f4ed3126..18af8736f30780b48313257a09973e30df6d0e2f 100644
+index 37b62a45bbe2db725f24330f1f03e8cf09ab208c..0196a49a5822e257b0e065e2383ec92b1bc27bba 100644
 --- a/src/main/java/org/bukkit/craftbukkit/entity/CraftLivingEntity.java
 +++ b/src/main/java/org/bukkit/craftbukkit/entity/CraftLivingEntity.java
 @@ -562,6 +562,13 @@ public class CraftLivingEntity extends CraftEntity implements LivingEntity {

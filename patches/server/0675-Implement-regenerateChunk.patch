@@ -6,7 +6,7 @@ Subject: [PATCH] Implement regenerateChunk
 Co-authored-by: Jason Penilla <11360596+jpenilla@users.noreply.github.com>
 
 diff --git a/src/main/java/org/bukkit/craftbukkit/CraftWorld.java b/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
-index 43b3af7bba4551d98c7ffb53fbee9413ed5b8dd3..e31794510cb204fa1360803050d25d0e226785e2 100644
+index a5121eb7fa8fccf7e742beea285c2f741ece513d..7e9344fdafb01030061458c55ccf6836bf643da3 100644
 --- a/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
 +++ b/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
 @@ -151,6 +151,7 @@ import org.jetbrains.annotations.Nullable;

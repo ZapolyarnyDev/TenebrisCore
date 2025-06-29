@@ -111,7 +111,7 @@ index 4934c59f0ac6bd6dea67b716e4db07d295757f46..12245d90ccb4bce09966ab6b3def1e7e
          } else {
              passenger.stopRiding();
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index 6324b875472fc2dbc581157306ff255ef1bf5db2..98816b5f759aa72198fb259b4df79a2cd6ee567c 100644
+index ff497f0e80889508dd8c183b48cd33bc7831ba6c..6f48af629392f4426e50f752424fc9f58985688a 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -413,6 +413,8 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess
@@ -147,7 +147,7 @@ index 6324b875472fc2dbc581157306ff255ef1bf5db2..98816b5f759aa72198fb259b4df79a2c
              movement = this.maybeBackOffFromEdge(movement, movementType);
              Vec3 vec3d1 = this.collide(movement);
 diff --git a/src/main/java/net/minecraft/world/entity/Mob.java b/src/main/java/net/minecraft/world/entity/Mob.java
-index d680ad6ce6cfc58753a3754a1bd5113fa9778cdc..9f42563699508fcb3d8a96cfdfc25a7bffd99759 100644
+index 748a6d81f409cf91a7aa2c88ded04f1d428cf0f6..8b612b772ca87c852d0b108c2afd6785c261c9b9 100644
 --- a/src/main/java/net/minecraft/world/entity/Mob.java
 +++ b/src/main/java/net/minecraft/world/entity/Mob.java
 @@ -237,6 +237,19 @@ public abstract class Mob extends LivingEntity implements EquipmentUser, Targeti
@@ -746,7 +746,7 @@ index 9fb9fa62c32445ac3c3883a6433759c86dcfc428..3283ed99c35ffed6805567705e0518d9
              isActive = false;
          }
 diff --git a/src/main/java/org/spigotmc/SpigotWorldConfig.java b/src/main/java/org/spigotmc/SpigotWorldConfig.java
-index 5485df1a1b59e81f4dcedd21dd972e1fd2759573..1cf6d4f854d89c515e48e1fb365eb95ff9340765 100644
+index 37bbda040bd6f8a92295d2f32affbb53ea2d369b..dbfe355221fb2ee66b79442a749412d9288afc0d 100644
 --- a/src/main/java/org/spigotmc/SpigotWorldConfig.java
 +++ b/src/main/java/org/spigotmc/SpigotWorldConfig.java
 @@ -211,14 +211,60 @@ public class SpigotWorldConfig

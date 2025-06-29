@@ -24,7 +24,7 @@ index 926ff9be3d9e3f5d620e4c7ccb22b9f64865ff8c..1a37654aff9a9c86c9f7af10a1cf7213
          buf.writeLong(this.sectionPos.asLong());
          buf.writeVarInt(this.positions.length);
 diff --git a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
-index bb75c965266fefa58919823e5fcc9f56f11b04d0..409d8f8957eda02a474f36e4c9010aee62c7fade 100644
+index 634da85870b31a9fc09d53f5670239e18bcb3d47..6793acbbae09a9bc39f59c029f6b02182ec33a92 100644
 --- a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 +++ b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 @@ -928,6 +928,32 @@ public class CraftPlayer extends CraftHumanEntity implements Player {

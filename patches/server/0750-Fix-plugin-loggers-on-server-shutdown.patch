@@ -37,7 +37,7 @@ index 0000000000000000000000000000000000000000..c1d3bac79bb8b4796c013ff4472f75dc
 +    }
 +}
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 803c234ec23147ed317ae4639438141462dfbd80..f67b48131ec7e18177f5daeda19389641f00193a 100644
+index 91771afb413b56ff84697f4d1264e2e97ee5c132..b2a46033d522f3122041cc2966105159c8869fdc 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -1232,6 +1232,7 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa
@@ -49,7 +49,7 @@ index 803c234ec23147ed317ae4639438141462dfbd80..f67b48131ec7e18177f5daeda1938964
              }
  
 diff --git a/src/main/java/org/bukkit/craftbukkit/Main.java b/src/main/java/org/bukkit/craftbukkit/Main.java
-index 02243b69cca7255588b43dab57e1c9ca4c3ca87f..6e1f92b45504cef0c4dcbbebf3df339ef4cad0a1 100644
+index 8316e0703b6c1ad81d6745f29eb697017e84c65a..9743c945d560b7a86122c7f8cd3ebd54b81189a3 100644
 --- a/src/main/java/org/bukkit/craftbukkit/Main.java
 +++ b/src/main/java/org/bukkit/craftbukkit/Main.java
 @@ -19,6 +19,12 @@ public class Main {

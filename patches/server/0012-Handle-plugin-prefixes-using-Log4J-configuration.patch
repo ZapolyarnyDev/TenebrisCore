@@ -15,7 +15,7 @@ This may cause additional prefixes to be disabled for plugins bypassing
 the plugin logger.
 
 diff --git a/build.gradle.kts b/build.gradle.kts
-index f7a1c358b0caf524707dcf1346d1d5a22500ce59..1d9baec8ebafb694e259af6a24892a899791a550 100644
+index 90ca693814a82c30de238b0228750b769a9a9c80..b3160912aeaddf8990e3bab9fce29532cefd8dcc 100644
 --- a/build.gradle.kts
 +++ b/build.gradle.kts
 @@ -23,7 +23,7 @@ dependencies {

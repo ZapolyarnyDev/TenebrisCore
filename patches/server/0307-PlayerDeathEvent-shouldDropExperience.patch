@@ -5,7 +5,7 @@ Subject: [PATCH] PlayerDeathEvent#shouldDropExperience
 
 
 diff --git a/src/main/java/net/minecraft/server/level/ServerPlayer.java b/src/main/java/net/minecraft/server/level/ServerPlayer.java
-index e7da9cda8d1f4eef25d88c6d9f1cf742e2fdaaa0..3a24a46fca271e12f8ad5b716ef6ea6621b8801c 100644
+index d15fed8770c672b1d387f6cd3b11577ba54ebedb..932b68089c55c8f1b84a15272378d4322a0a5a91 100644
 --- a/src/main/java/net/minecraft/server/level/ServerPlayer.java
 +++ b/src/main/java/net/minecraft/server/level/ServerPlayer.java
 @@ -1011,7 +1011,7 @@ public class ServerPlayer extends Player {

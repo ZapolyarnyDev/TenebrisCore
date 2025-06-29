@@ -77,7 +77,7 @@ index 5a7d314ec0562e472f5dc45924a7b24841cff126..650e4a01cecc4cc08e7ff9ebcc4c3670
      public java.util.UUID getTriggerEntityId() {
          return getHandle().triggerEntityId;
 diff --git a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
-index ac4a8c9d4f727f3caa16f6dc5497d69f9db52aab..53f5eb1682c88abf7b09e16f010ebbd8fe2ac059 100644
+index 18d1e2ff18cae10ec6f1b7adf480bd6bfe738584..943c452e1d3d1273a2ef304aa2a52f328dfb5d37 100644
 --- a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 +++ b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 @@ -703,15 +703,29 @@ public class CraftEventFactory {

@@ -112,7 +112,7 @@ index 113ca1d16cb7650d72f488cdaa9e670d51dc85f0..b6fef2ca5b564c293cb602cb8e300d35
      private final org.bukkit.entity.Entity.Spigot spigot = new org.bukkit.entity.Entity.Spigot()
      {
 diff --git a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
-index 409d8f8957eda02a474f36e4c9010aee62c7fade..37ca21194e90523c2461468f68509257d11234b1 100644
+index 6793acbbae09a9bc39f59c029f6b02182ec33a92..898259c35c25ee034c859e210350efc19c559e3b 100644
 --- a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 +++ b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 @@ -1273,13 +1273,101 @@ public class CraftPlayer extends CraftHumanEntity implements Player {

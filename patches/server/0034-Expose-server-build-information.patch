@@ -502,7 +502,7 @@ index 93c7648106b18ef2982f476c3200839bb5e2ea0c..8b5a630a67b058f014478b033e6b1299
  
      public SystemReport fillSystemReport(SystemReport details) {
 diff --git a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
-index bbe2fabc9251838f232480a04f0a2cf2b49f2812..a6126515e497cb0769bdc96881389026196bbbae 100644
+index 8dcfcce4ccf0320b5d5b9eda2d1b5ebe04e26a13..1b38916d8e9241bd45523e692c04bf69430b64f9 100644
 --- a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 +++ b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 @@ -214,6 +214,7 @@ public class DedicatedServer extends MinecraftServer implements ServerInterface

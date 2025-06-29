@@ -10,7 +10,7 @@ list is only used in the tick and tickPassenger methods, so we can safely not ad
 markers to it. When the config option is set to true, markers are ticked as normal.
 
 diff --git a/src/main/java/io/papermc/paper/command/subcommands/EntityCommand.java b/src/main/java/io/papermc/paper/command/subcommands/EntityCommand.java
-index ff99336e0b8131ae161cfa5c4fc83c6905e3dbc8..5e5a018433414af76eaa1e781f61612ddc305b07 100644
+index 67fcba634f8183bb33834ac3b2c3dcfb8d87129e..777b789fdcdf297309cfb36fc7f77e3fdb6327ca 100644
 --- a/src/main/java/io/papermc/paper/command/subcommands/EntityCommand.java
 +++ b/src/main/java/io/papermc/paper/command/subcommands/EntityCommand.java
 @@ -109,7 +109,7 @@ public final class EntityCommand implements PaperSubcommand {

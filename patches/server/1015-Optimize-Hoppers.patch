@@ -50,7 +50,7 @@ index 0000000000000000000000000000000000000000..5c42823726e70ce6c9d0121d07431548
 +    }
 +}
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 4f076eae3a9c597e41f4520dae8378ec429d9f69..810b6099e734a5524e696beb3f25d6ca686625ea 100644
+index 64ae2745c3144d43cad12dfe9baf1a291756d129..6d7224787d328540319c76f904e00cbe96d53565 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -1753,6 +1753,7 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa
@@ -62,7 +62,7 @@ index 4f076eae3a9c597e41f4520dae8378ec429d9f69..810b6099e734a5524e696beb3f25d6ca
              this.profiler.push(() -> {
                  String s = String.valueOf(worldserver);
 diff --git a/src/main/java/net/minecraft/world/item/ItemStack.java b/src/main/java/net/minecraft/world/item/ItemStack.java
-index ea5a36a192258b2f147b4a820f5cc988eb0e1180..86dcad62f59f68d2eefe2d5df1cdaee0955dc6e3 100644
+index 3f6082b656ec8c9b96b40fbd1c926d5211ffe4c6..066feef97f92b3f788dd6d25d188f2cc36fc4c80 100644
 --- a/src/main/java/net/minecraft/world/item/ItemStack.java
 +++ b/src/main/java/net/minecraft/world/item/ItemStack.java
 @@ -801,10 +801,16 @@ public final class ItemStack implements DataComponentHolder {

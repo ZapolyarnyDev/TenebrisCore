@@ -208,7 +208,7 @@ index 0000000000000000000000000000000000000000..dd9d77d7c7f1a5a130a1f4c15e5b1e68
 +    public void setErrorIndex(final int errorIndex) {}
 +}
 diff --git a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
-index 4b00c14332f3d514f402fc82345a02d51c3ac58a..e3eaa004ecc4ddb57be4eeb993c37a7876cd55a1 100644
+index a0d0e334dfe63e62c6c4a83099c9953205ada5cc..8f04770e479f2ee832edf55698153cd62524d9e8 100644
 --- a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 +++ b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 @@ -186,7 +186,7 @@ public class DedicatedServer extends MinecraftServer implements ServerInterface

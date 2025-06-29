@@ -5,7 +5,7 @@ Subject: [PATCH] Add EntityDamageItemEvent
 
 
 diff --git a/src/main/java/net/minecraft/world/item/ItemStack.java b/src/main/java/net/minecraft/world/item/ItemStack.java
-index b4cb9ff5553995dddfb99b6b3ac1250b92a65d9d..2947a43a1d9e49273ed0242691273e50c657cd05 100644
+index e5fbb6dac3b1869797f2141e82993374a9f18e94..1b062edcc04af4c500f38c1664b5cee25e265f3c 100644
 --- a/src/main/java/net/minecraft/world/item/ItemStack.java
 +++ b/src/main/java/net/minecraft/world/item/ItemStack.java
 @@ -647,7 +647,7 @@ public final class ItemStack implements DataComponentHolder {

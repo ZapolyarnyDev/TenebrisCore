@@ -6,7 +6,7 @@ Subject: [PATCH] Server Tick Events
 Fires event at start and end of a server tick
 
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 043dbf59effbbddc5b2e3b8837717997a1771e6f..5d8fb0a781b2f86ab15c7045cd09c58563848848 100644
+index 8cf548656f7ec76c1663cd16b83d94bf3582d020..3b6517cb569a6c702dabb60e8f98cd5f9c367e5b 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -1407,6 +1407,7 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa

@@ -5,7 +5,7 @@ Subject: [PATCH] Don't load chunks for supporting block checks
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index 1d934225d6abbec6f231042b8a9c823ee4a26029..9541fbd06bc000023d6119eff03787ef068178ce 100644
+index 73831000101765845c0881bba217b2ca54eb39dd..9119bf1eac38f9b40d035f702150a7939095266c 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -1210,7 +1210,7 @@ public abstract class Entity implements SyncedDataHolder, Nameable, EntityAccess
