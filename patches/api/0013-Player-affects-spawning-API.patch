@@ -1,0 +1,33 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Jedediah Smith <jedediah@silencegreys.com>
+Date: Mon, 29 Feb 2016 17:22:34 -0600
+Subject: [PATCH] Player affects spawning API
+
+
+diff --git a/src/main/java/org/bukkit/entity/Player.java b/src/main/java/org/bukkit/entity/Player.java
+index 776a3ce9a6c106fbe96cc6399b9ee2cd81b10c76..966a5626eac9305c88b1fe35d12c5fc6e28348d4 100644
+--- a/src/main/java/org/bukkit/entity/Player.java
++++ b/src/main/java/org/bukkit/entity/Player.java
+@@ -2578,6 +2578,22 @@ public interface Player extends HumanEntity, Conversable, OfflinePlayer, PluginM
+     @Deprecated // Paper
+     public String getLocale();
+ 
++    // Paper start
++    /**
++     * Get whether the player can affect mob spawning
++     *
++     * @return if the player can affect mob spawning
++     */
++    public boolean getAffectsSpawning();
++
++    /**
++     * Set whether the player can affect mob spawning
++     *
++     * @param affects Whether the player can affect mob spawning
++     */
++    public void setAffectsSpawning(boolean affects);
++    // Paper end
++
+     /**
+      * Update the list of commands sent to the client.
+      * <br>
